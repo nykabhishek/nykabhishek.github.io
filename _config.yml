@@ -81,12 +81,12 @@ analytics:
 # Site Author
 author:
   name             : "Abhishek Nayak"
-  avatar           : "nykabhishek.JPG"
+  avatar           : "nykabhishek.png"
   bio              : "Your biography for the left-hand sidebar"
   location         : "Location"
   employer         :
   pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
-  googlescholar    : "http://yourfullgooglescholarurl.com"
+  googlescholar    : "https://scholar.google.co.in/citations?hl=en&user=1jTDYzQAAAAJ"
   email            :
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -99,10 +99,10 @@ author:
   github           : "nykabhishek"
   google_plus      :
   keybase          :
-  instagram        :
+  instagram        : "nykabhishek"
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         :
+  linkedin         : "nykabhishek"
   orcid            : "http://orcid.org/yourorcidurl"
   pinterest        :
   soundcloud       :
