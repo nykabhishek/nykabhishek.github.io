@@ -11,9 +11,9 @@ redirect_from:
 
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Bachelor of Technology in Mechanical Engineering, National Institute of Technology - Karnataka, 2014
+* M.S. in Mechanical Engineering, Texas A&M University, 2019
+* Ph.D in Mechanical Engineering, Texas A&M University, 2022 (expected)
 
 Work experience
 ======
