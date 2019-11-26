@@ -17,31 +17,35 @@ Education
 
 Work experience
 ======
-* Jan 2018 - Present: **Graduate Research Assistant**
-  * *Texas Transportation Institute (TTI), College Station, TX*
-    * Duties included: Tagging issues
-    * Supervisor: Professor Git
+* Jan 2018 - Present: *Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**
+  * Duties included: Tagging issues
+  * Supervisor: Dr. Susan Chrysler
 
-* Fall 2015: Research Assistant
-  * Github University
+*  Aug 2017 - Jan 2018: *Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**
   * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+  * Supervisor: Dr. Sivakumar Rathinam
 
-* Aug 2014 - Aug 2017: Member R&D (Design & Development Engineer - Engines)
-  * TVS Motor Company Ltd, Hosur India
-    * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
-    * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
-    * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
-    * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
+* Aug 2014 - Aug 2017: *Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**
+  * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
+  * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
+  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
+  * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
   
 Skills
 ======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+* Programming: Python, MATLAB, ROS, OpenCV
+* ML Packages: scikit-learn, NumPy Tensorflow, Keras
+* Analysis: SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise
+* Design: CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5
+* Other: LATEX, Linux, Adobe Photoshop
+
+| Tables        | Are         |
+| ------------- |-------------|
+| Programming   | Python, MATLAB, ROS, OpenCV                                        |
+| ML Packages   | scikit-learn, NumPy Tensorflow, Keras                              |
+| Analysis      | SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise                |
+| Design        | CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5  |
+| Other         | LATEX, Linux, Adobe Photoshop                                      |
 
 Publications
 ======
