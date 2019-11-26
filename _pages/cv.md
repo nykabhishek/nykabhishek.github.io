@@ -31,7 +31,7 @@ Work experience
 >  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
 >  * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
 
-NTERNSHIP/TRAININGS
+Internsips/Training
 ======
 *Research Intern*, **TVS Motor Company Ltd, Hosur**, (June - July 2013)
   * Project: Mathematical modeling & experimental validation of timing drive dynamics in a 110cc engine.
