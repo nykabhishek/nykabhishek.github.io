@@ -26,11 +26,20 @@ Work experience
   * Supervisor: Dr. Sivakumar Rathinam
 
 * Aug 2014 - Aug 2017: *Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**
-  * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
-  * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
-  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
-  * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
-  
+> * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
+>  * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
+>  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
+>  * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
+
+NTERNSHIP/TRAININGS
+======
+* June - July 2013: *Research Intern*, **TVS Motor Company Ltd, Hosur**
+  * Project: Mathematical modeling & experimental validation of timing drive dynamics in a 110cc engine.
+  * Supervisor: T L Balasubramanian
+
+* June 2012: *Student Intern*, **Bharath Fritz Werner Ltd. (BFW), Bangalore**
+  * Project: Tact-time reduction and assembly optimization of CNC Machines in SMD (Special Machines Division).
+
 Skills
 ======
 * Programming: Python, MATLAB, ROS, OpenCV
@@ -39,12 +48,12 @@ Skills
 * Design: CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5
 * Other: LATEX, Linux, Adobe Photoshop
 
-| Tables        | Are         |
-| ------------- |-------------|
+| Tables        | Are                                                                |
+| ------------- |--------------------------------------------------------------------|
 | Programming   | Python, MATLAB, ROS, OpenCV                                        |
 | ML Packages   | scikit-learn, NumPy Tensorflow, Keras                              |
 | Analysis      | SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise                |
-| Design        | CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5  |
+| Design        | CREO Parametric (certified Sep 2015), Solidworks, AUTOCAD, CATIA v5|
 | Other         | LATEX, Linux, Adobe Photoshop                                      |
 
 Publications
@@ -67,4 +76,12 @@ Talks
   
 Service and leadership
 ======
-* Currently signed in to 43 different slack teams
+* *Senior Director - Mentoring*, **Indian Graduate Students Association (IGSA)** September 2017 - Present
+Texas A&M University
+ Mentor the new incoming graduate students and help in their orientation at Texas A&M
+Joint-Convenor - Mechanical Events at Engineer 13 April 2013 - Oct. 2013
+National Institute of Technology Karnataka, Surathkal
+ Joint Administrative in-charge of organizing competitions on Mechanical engineering at the Annual Technical Sym-
+posium of NITK Surathkal with over 6000 student participants from 150 colleges across 65 countries
+Executive member, SAE INDIA NITK Chapter Sep 2011- May 2014
+National Institute of Technology Karnataka, Surathkal
