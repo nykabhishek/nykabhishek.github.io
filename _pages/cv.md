@@ -17,15 +17,15 @@ Education
 
 Work experience
 ======
-* Jan 2018 - Present: *Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**
+*Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
   * Duties included: Tagging issues
   * Supervisor: Dr. Susan Chrysler
 
-*  Aug 2017 - Jan 2018: *Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**
+*Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
   * Duties included: Merging pull requests
   * Supervisor: Dr. Sivakumar Rathinam
 
-* Aug 2014 - Aug 2017: *Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**
+*Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**, (Aug 2014 - Aug 2017)
 > * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
 >  * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
 >  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
@@ -33,11 +33,11 @@ Work experience
 
 NTERNSHIP/TRAININGS
 ======
-* June - July 2013: *Research Intern*, **TVS Motor Company Ltd, Hosur**
+*Research Intern*, **TVS Motor Company Ltd, Hosur**, (June - July 2013)
   * Project: Mathematical modeling & experimental validation of timing drive dynamics in a 110cc engine.
   * Supervisor: T L Balasubramanian
 
-* June 2012: *Student Intern*, **Bharath Fritz Werner Ltd. (BFW), Bangalore**
+*Student Intern*, **Bharath Fritz Werner Ltd. (BFW), Bangalore**, (June 2012)
   * Project: Tact-time reduction and assembly optimization of CNC Machines in SMD (Special Machines Division).
 
 Skills
@@ -76,12 +76,11 @@ Talks
   
 Service and leadership
 ======
-* *Senior Director - Mentoring*, **Indian Graduate Students Association (IGSA)** September 2017 - Present
+*Senior Director - Mentoring*, **Indian Graduate Students Association (IGSA)**, (September 2017 - Present)
 Texas A&M University
- Mentor the new incoming graduate students and help in their orientation at Texas A&M
-Joint-Convenor - Mechanical Events at Engineer 13 April 2013 - Oct. 2013
+  * Mentor the new incoming graduate students and help in their orientation at Texas A&M
+*Joint-Convenor - Mechanical Events at Engineer 13*, (April 2013 - Oct. 2013)
 National Institute of Technology Karnataka, Surathkal
- Joint Administrative in-charge of organizing competitions on Mechanical engineering at the Annual Technical Sym-
-posium of NITK Surathkal with over 6000 student participants from 150 colleges across 65 countries
-Executive member, SAE INDIA NITK Chapter Sep 2011- May 2014
+  * Joint Administrative in-charge of organizing competitions on Mechanical engineering at the Annual Technical Symposium of NITK Surathkal with over 6000 student participants from 150 colleges across 65 countries
+*Executive member*, **SAE INDIA NITK Chapter**, (Sep 2011- May 2014)
 National Institute of Technology Karnataka, Surathkal
