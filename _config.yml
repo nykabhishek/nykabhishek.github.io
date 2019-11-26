@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Your Name / Site Title"
+title                    : "Abhishek / Portfolio"
 title_separator          : "-"
-name                     : &name "Your Name"
+name                     : &name "Abhsihek Nayak"
 description              : &description "personal description"
 url                      : https://nykabhishek.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -88,7 +88,7 @@ author:
   pubmed           : #"https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   googlescholar    : "https://scholar.google.co.in/citations?hl=en&user=1jTDYzQAAAAJ"
   email            :
-  researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
+  researchgate     : "https://www.researchgate.net/profile/Abhishek_Nayak4"
   uri              :
   bitbucket        :
   codepen          :
