@@ -79,8 +79,10 @@ Service and leadership
 *Senior Director - Mentoring*, **Indian Graduate Students Association (IGSA)**, (September 2017 - Present)
 Texas A&M University
   * Mentor the new incoming graduate students and help in their orientation at Texas A&M
+
 *Joint-Convenor - Mechanical Events at Engineer 13*, (April 2013 - Oct. 2013)
 National Institute of Technology Karnataka, Surathkal
   * Joint Administrative in-charge of organizing competitions on Mechanical engineering at the Annual Technical Symposium of NITK Surathkal with over 6000 student participants from 150 colleges across 65 countries
+
 *Executive member*, **SAE INDIA NITK Chapter**, (Sep 2011- May 2014)
 National Institute of Technology Karnataka, Surathkal
