@@ -17,8 +17,8 @@ Education
 
 Work experience
 ======
-* Jan 2018 - Present: Graduate Research Assistant
-  * Texas Transportation Institute (TTI), College Station, TX
+* Jan 2018 - Present: **Graduate Research Assistant**
+  * *Texas Transportation Institute (TTI), College Station, TX*
     * Duties included: Tagging issues
     * Supervisor: Professor Git
 
@@ -28,7 +28,6 @@ Work experience
   * Supervisor: Professor Hub
 
 * Aug 2014 - Aug 2017: Member R&D (Design & Development Engineer - Engines)
- CAD design & development of Valvetrain & timing drive components for new products
   * TVS Motor Company Ltd, Hosur India
     * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
     * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
@@ -56,11 +55,11 @@ Talks
     {% include archive-single-talk-cv.html %}
   {% endfor %}</ul>
   
-Teaching
+<!-- Teaching
 ======
   <ul>{% for post in site.teaching %}
     {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+  {% endfor %}</ul> -->
   
 Service and leadership
 ======
