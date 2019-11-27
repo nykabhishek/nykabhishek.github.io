@@ -1,6 +1,6 @@
 ---
-title: "Reference"
-excerpt: "The objective of this project is to develop a reference Lane Detection (LD) system that will provide a benchmark for evaluating different lane markings, sensors and perception algorithms. The goal is to create a system that will validate the effectiveness of lane markings as well as the vision algorithms through a systematic development of LD metrics, and testing of LD algorithms. A Safe-D UTC sponsored project.<br/><img src='/images/lane.jpg'>"
+title: "RAVEV"
+excerpt: "The objective of this project is to explore an ideal response action of an autonomous vehicle towards rst response vehicles in emergency scenarios using vision, sound and other sensors.<br/><img src='/images/ravev.jpg'>"
 collection: projects
 ---
 
