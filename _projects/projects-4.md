@@ -1,6 +1,6 @@
 ---
-title: "Ravev"
-excerpt: "The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. A Safe-D UTC sponsored project.<br/><img src='/images/lane.jpg'>"
+title: "Development of autonomous driving capability on a Ford Focus"
+excerpt: "Implementation of low-cost drive-by-wire control capability via sensor emulation using Arduino Mega on a Ford focus vehicle.<br/><img src='/images/lane.jpg'>"
 collection: projects
 ---
 
