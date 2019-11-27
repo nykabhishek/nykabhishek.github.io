@@ -56,6 +56,12 @@ Skills
 | Design        | CREO Parametric (certified Sep 2015), Solidworks, AUTOCAD, CATIA v5|
 | Other         | LATEX, Linux, Adobe Photoshop                                      |
 
+Projects
+======
+  <ul>{% for post in site.projects %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Publications
 ======
   <ul>{% for post in site.publications %}
