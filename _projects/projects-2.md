@@ -1,6 +1,6 @@
 ---
-title: "RAVEV"
-excerpt: "The objective of this project is to explore an ideal response action of an autonomous vehicle towards rst response vehicles in emergency scenarios using vision, sound and other sensors.<br/><img src='/images/ravev.jpg'>"
+title: "Ravev"
+excerpt: "The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. A Safe-D UTC sponsored project.<br/><img src='/images/lane.jpg'>"
 collection: projects
 ---
 
