@@ -1,6 +1,6 @@
 ---
-title: "Portfolio item number 1"
-excerpt: "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
+title: "Reference Machine Vision for ADAS functions"
+excerpt: "The objective of this project is to develop a reference Lane Detection (LD) system that will provide a benchmark for evaluating different lane markings, sensors and perception algorithms. The goal is to create a system that will validate the effectiveness of lane markings as well as the vision algorithms through a systematic development of LD metrics, and testing of LD algorithms. A Safe-D UTC sponsored project.<br/><img src='/images/lane.png'>"
 collection: projects
 ---
 
