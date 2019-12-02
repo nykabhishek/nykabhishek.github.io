@@ -42,14 +42,14 @@ Internsips/Training
 
 Skills
 ======
-* Programming: Python, MATLAB, ROS, OpenCV
+<!-- * Programming: Python, MATLAB, ROS, OpenCV
 * ML Packages: scikit-learn, NumPy Tensorflow, Keras
 * Analysis: SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise
 * Design: CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5
-* Other: LATEX, Linux, Adobe Photoshop
+* Other: LATEX, Linux, Adobe Photoshop -->
 
-| Tables        | Are                                                                |
-| ------------- |--------------------------------------------------------------------|
+<!-- | Tables        | Softwares                                                          |
+| ------------- |--------------------------------------------------------------------| -->
 | Programming   | Python, MATLAB, ROS, OpenCV                                        |
 | ML Packages   | scikit-learn, NumPy Tensorflow, Keras                              |
 | Analysis      | SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise                |
