@@ -2,7 +2,7 @@
 title: "Poster presentation on Response of Autonomous Vehicles to Emergency Vehicles"
 collection: talks
 type: "Poster Presentation"
-permalink: /talks/4/23/2019-poster-2
+permalink: /talks/2019-poster-2
 venue: "CSCRS Safe Systems Summit 2019"
 date: 4/23/2019
 location: "Durham, NC"

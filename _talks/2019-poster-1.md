@@ -2,7 +2,7 @@
 title: "Poster presentation on Reference Machine Vision for ADAS"
 collection: talks
 type: "Poster Presentation"
-permalink: /talks/7/16/2019-poster-1
+permalink: /talks/2019-poster-1
 venue: "Automated Vehicles Symposium 2019"
 date: 7/16/2019
 location: "Orlando, FL"
