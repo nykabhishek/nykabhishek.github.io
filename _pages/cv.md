@@ -48,8 +48,8 @@ Skills
 * Design: CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5
 * Other: LATEX, Linux, Adobe Photoshop -->
 
-<!-- | Tables        | Softwares                                                          |
-| ------------- |--------------------------------------------------------------------| -->
+| Skills        | Softwares                                                          |
+| ------------- |--------------------------------------------------------------------|
 | Programming   | Python, MATLAB, ROS, OpenCV                                        |
 | ML Packages   | scikit-learn, NumPy Tensorflow, Keras                              |
 | Analysis      | SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise                |
