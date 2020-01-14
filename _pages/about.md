@@ -13,4 +13,4 @@ I am a doctoral student in the department of mechanical engineering at Texas A&M
 
 In 2019, I received my Masters degree and thesis work was on developing vision-based response of autonomous vehicles towards emergency vehicles using infrastructure enabled autonomy. Prior to joining Texas A&M, I was working as a Design Engineer at the R&D of [TVS Motor Company, India](https://www.tvsmotor.com/), where I was responsible for designing and developing the cylinderhead had and valve train parts.
 
-My undergraduate degree was in Mechanical Engineering from the National Institute of Technology - Surathkal, Karnataka in India, from which I graduated in 2014. During my undergraduate program, I worked on developing a device to improve cornering stability of a powered two wheeler vehicle.  
+My undergraduate degree was in Mechanical Engineering from the [National Institute of Technology Karnataka, Surathkal](https://www.nitk.ac.in/), from which I graduated in 2014. During my undergraduate program, I worked on developing a device to improve cornering stability of a powered two wheeler vehicle.  
