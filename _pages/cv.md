@@ -17,11 +17,11 @@ Education
 
 Work Experience
 ======
-* *Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
+* *Graduate Research Assistant*, **Texas A&M Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
   <!-- * Duties included: Tagging issues -->
   * Supervisor: Dr. Susan Chrysler
 
-* *Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
+* *Student Technician*, **Texas A&M Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
   <!-- * Duties included: Merging pull requests -->
   * Supervisor: Dr. Sivakumar Rathinam
 
