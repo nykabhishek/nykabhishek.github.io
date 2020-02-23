@@ -15,7 +15,7 @@ Since Fall 2017, I have been part of the [Autonomous Systems Laboratory](https:/
 
 I received my Master of Science degree in Dec 2019 and my thesis work was on developing vision-based response of autonomous vehicles towards emergency vehicles using infrastructure enabled autonomy. More details of this project can be found in the [Projects](https://nykabhishek.github.io/projects/ "Projects") section. Prior to joining Texas A&M, I was working as a Design Engineer at the R&D of [TVS Motor Company, India](https://www.tvsmotor.com/), where I was responsible for designing and developing the cylinderhead had and valve train parts.
 
-**Research Interests:** Computer vision, Autonomous vehicles, Algorithms, Multi-agent path planning, Machine learning
+**Research Interests:** Computer vision, Autonomous vehicles, Algorithms, Multi-agent path planning, Machine learning.
 
 <!-- My undergraduate degree was in Mechanical Engineering from the [National Institute of Technology Karnataka, Surathkal](https://www.nitk.ac.in/), from which I graduated in 2014. During my undergraduate program, I worked on developing a device to improve cornering stability of a powered two wheeler vehicle.  
 
