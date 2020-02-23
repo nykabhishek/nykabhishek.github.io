@@ -17,15 +17,15 @@ Education
 
 Work Experience
 ======
-*Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
+* *Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
   <!-- * Duties included: Tagging issues -->
   * Supervisor: Dr. Susan Chrysler
 
-*Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
+* *Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
   <!-- * Duties included: Merging pull requests -->
   * Supervisor: Dr. Sivakumar Rathinam
 
-*Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**, (Aug 2014 - Aug 2017)
+* *Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**, (Aug 2014 - Aug 2017)
   * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
   * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
   * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
