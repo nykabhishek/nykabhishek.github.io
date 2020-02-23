@@ -13,7 +13,7 @@ Education
 ======
 * Ph.D in Mechanical Engineering, Texas A&M University, 2022 (expected)
 * M.S. in Mechanical Engineering, Texas A&M University, 2019
-* Bachelor of Technology in Mechanical Engineering, National Institute of Technology - Karnataka, 2014
+* Bachelor of Technology in Mechanical Engineering, [National Institute of Technology Karnataka, Surathkal](https://www.nitk.ac.in/), 2014
 
 Work Experience
 ======
