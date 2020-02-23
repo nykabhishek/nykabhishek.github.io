@@ -11,27 +11,27 @@ redirect_from:
 
 Education
 ======
-* Bachelor of Technology in Mechanical Engineering, National Institute of Technology - Karnataka, 2014
-* M.S. in Mechanical Engineering, Texas A&M University, 2019
 * Ph.D in Mechanical Engineering, Texas A&M University, 2022 (expected)
+* M.S. in Mechanical Engineering, Texas A&M University, 2019
+* Bachelor of Technology in Mechanical Engineering, National Institute of Technology - Karnataka, 2014
 
-Work experience
+Work Experience
 ======
 *Graduate Research Assistant*, **Texas Transportation Institute (TTI), College Station, TX**, (Jan 2018 - Present)
-  * Duties included: Tagging issues
+  <!-- * Duties included: Tagging issues -->
   * Supervisor: Dr. Susan Chrysler
 
 *Student Technician*, **Texas Engineering Experiment Station (TEES), College Station, TX**, (Aug 2017 - Jan 2018)
-  * Duties included: Merging pull requests
+  <!-- * Duties included: Merging pull requests -->
   * Supervisor: Dr. Sivakumar Rathinam
 
 *Member R&D (Design & Development Engineer - Engines)*, **TVS Motor Company Ltd, Hosur India**, (Aug 2014 - Aug 2017)
-> * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
->  * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
->  * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
->  * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
+    * CAD design & development of Valvetrain & timing drive components for new products like Apache RTR200 4V, Apache RR310, Victor, XL100 etc. and its life-cycle management.
+    * Experienced in Product management and development techniques like Design Reviews (TDR), Engineering Change Management (ECM), Product Benchmarking, DFX, DFMEA, Patent Survey, Value Engineering (VA/VE).
+    * Developed mathematical models of Valvetrain and Timing drive using MATLAB, and conducted experiments to improve engine dynamics in Jupiter, Victor, Apache RTR200, Apache RR310 and BMW G310R models.
+    * Involved in design & development of concept VVT engines, Cam-phaser camshaft & Internal-EGR Concepts for 125cc to 200cc capacity engines to achieve target performance, improve fuel economy (about 10%) and meet EU IV emission standards.
 
-Internsips/Training
+Internships/Training
 ======
 *Research Intern*, **TVS Motor Company Ltd, Hosur**, (June - July 2013)
   * Project: Mathematical modeling & experimental validation of timing drive dynamics in a 110cc engine.
@@ -43,7 +43,7 @@ Internsips/Training
 Skills
 ======
 <!-- * Programming: Python, MATLAB, ROS, OpenCV
-* ML Packages: scikit-learn, NumPy Tensorflow, Keras
+* ML Packages: scikit-learn, Tensorflow, Keras, Pandas, numPy
 * Analysis: SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise
 * Design: CREO Parametric (certied Sep 2015), Solidworks, AUTOCAD, CATIA v5
 * Other: LATEX, Linux, Adobe Photoshop -->
@@ -51,7 +51,7 @@ Skills
 | Skills        | Softwares                                                          |
 | ------------- |--------------------------------------------------------------------|
 | Programming   | Python, MATLAB, ROS, OpenCV                                        |
-| ML Packages   | scikit-learn, NumPy Tensorflow, Keras                              |
+| ML Packages   | scikit-learn, Tensorflow, Keras, Pandas, numPy                     |
 | Analysis      | SIMULINK, CREO Simulate, CREO Mechanism, AVL Cruise                |
 | Design        | CREO Parametric (certified Sep 2015), Solidworks, AUTOCAD, CATIA v5|
 | Other         | LATEX, Linux, Adobe Photoshop                                      |
