@@ -1,6 +1,6 @@
 ---
 title: "Development of autonomous driving capability on a Ford Focus"
-excerpt: "Implementation of low-cost drive-by-wire control capability via sensor emulation using Arduino Mega on a Ford focus vehicle.<br/><img src='/images/lane.jpg'>"
+excerpt: "Implementation of low-cost drive-by-wire control capability via sensor emulation using Arduino Mega on a Ford focus vehicle.<br/><img src='/images/focus.jpg'>"
 collection: projects
 ---
 
