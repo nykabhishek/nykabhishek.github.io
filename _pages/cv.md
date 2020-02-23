@@ -33,11 +33,11 @@ Work Experience
 
 Internships/Training
 ======
-*Research Intern*, **TVS Motor Company Ltd, Hosur**, (June - July 2013)
+* *Research Intern*, **TVS Motor Company Ltd, Hosur**, (June - July 2013)
   * Project: Mathematical modeling & experimental validation of timing drive dynamics in a 110cc engine.
   * Supervisor: T L Balasubramanian
 
-*Student Intern*, **Bharath Fritz Werner Ltd. (BFW), Bangalore**, (June 2012)
+* *Student Intern*, **Bharath Fritz Werner Ltd. (BFW), Bangalore**, (June 2012)
   * Project: Tact-time reduction and assembly optimization of CNC Machines in SMD (Special Machines Division).
 
 Skills
