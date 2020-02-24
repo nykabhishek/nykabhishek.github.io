@@ -6,7 +6,7 @@ permalink: /publication/2019-paper-title-number-4
 date: 02/04/2019
 venue: 'SAE Technical Paper'
 paperurl: 'https://www.sae.org/publications/technical-papers/content/2019-01-0889/'
-citation: 'Nayak, A., Gopalswamy, S., and Rathinam, S., &quot;Vision-Based Techniques for Identifying Emergency Vehicles,&quot; SAE Technical Paper 2019-01-0889, 2019, https://doi.org/10.4271/2019-01-0889.'
+citation: 'Nayak, A., Gopalswamy, S., and Rathinam, S., &quot;Vision-Based Techniques for Identifying Emergency Vehicles,&quot; SAE Technical Paper 2019-01-0889, 2019, ' \n ' https://doi.org/10.4271/2019-01-0889.'
 ---
 
 <a href='https://www.sae.org/publications/technical-papers/content/2019-01-0889/'>Download paper here</a>
