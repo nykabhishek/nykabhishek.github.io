@@ -7,3 +7,5 @@ collection: projects
 **Location:** Texas A&M Transportation Institute (TTI) - College Station, TX
 
 This is an item in your portfolio. It can be have images or nice text. If you name the file .md, it will be parsed as markdown. If you name the file .html, it will be parsed as HTML. 
+
+[![RAVEV - 3 car following](http://img.youtube.com/vi/jC9_wJNKgvk/0.jpg)](https://youtu.be/jC9_wJNKgvk "Audi R8")
