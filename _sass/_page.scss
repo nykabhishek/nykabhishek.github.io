@@ -110,6 +110,7 @@
 }
 
 .page__hero {
+  text-align: justify;
   position: relative;
   margin-bottom: 2em;
   @include clearfix;
@@ -198,6 +199,7 @@
    ========================================================================== */
 
 .page__share {
+  text-align: justify;
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
@@ -228,6 +230,7 @@
    ========================================================================== */
 
 .page__meta {
+  text-align: justify;
   margin-top: 2em;
   color: mix(#fff, $gray, 25%);
   font-family: $sans-serif;
@@ -380,6 +383,7 @@
    ========================================================================== */
 
 .page__related {
+  text-align: justify;
   margin-top: 2em;
   padding-top: 1em;
   border-top: 1px solid $border-color;
