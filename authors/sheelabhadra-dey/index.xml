@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sheelabhadra Dey | Abhishek Nayak</title>
+    <link>https://nykabhishek.github.io/authors/sheelabhadra-dey/</link>
+      <atom:link href="https://nykabhishek.github.io/authors/sheelabhadra-dey/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sheelabhadra Dey</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Sheelabhadra Dey</title>
+      <link>https://nykabhishek.github.io/authors/sheelabhadra-dey/</link>
+    </image>
+    
+    <item>
+      <title>A Distributed Hybrid Hardware-in-the-loop Simulation Framework for Infrastructure Enabled Autonomy</title>
+      <link>https://nykabhishek.github.io/publication/nayak-2018-distributed/</link>
+      <pubDate>Mon, 01 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/publication/nayak-2018-distributed/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

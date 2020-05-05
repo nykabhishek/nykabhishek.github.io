@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Learning | Abhishek Nayak</title>
+    <link>https://nykabhishek.github.io/tags/machine-learning/</link>
+      <atom:link href="https://nykabhishek.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Machine Learning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Machine Learning</title>
+      <link>https://nykabhishek.github.io/tags/machine-learning/</link>
+    </image>
+    
+    <item>
+      <title>Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV)</title>
+      <link>https://nykabhishek.github.io/project/ravev/</link>
+      <pubDate>Sat, 27 Jan 2018 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/ravev/</guid>
+      <description>&lt;p&gt;
+    &lt;b&gt;Location:&lt;/b&gt; Texas A&amp;M Transportation Institute (TTI) - College Station, TX
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Abstract:&lt;/b&gt;
+    The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. 
+    I developed vision-based algorithms to reliably detect and track emergency vehicles from a video feed using image processing, machine learning, deep neural networks and other computer vison techniques. 
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;&lt;a href=&#34;https://sites.google.com/tamu.edu/ravev/&#34; target=&#34;_blank&#34;&gt;Project Website&lt;/a&gt;&lt;/b&gt; 
+&lt;/p&gt;
+&lt;p&gt; 
+    Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the project on Safe-D Website.
+&lt;/p&gt;
+&lt;p&gt;
+    This is a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Referances:&lt;/b&gt;
+    &lt;br&gt;Nayak, A., Gopalswamy, S., &amp; Rathinam, S. (2019). Vision-Based Techniques for Identifying Emergency Vehicles (No. 2019-01-0889). SAE Technical Paper.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/ILjxfTvve_M&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/jC9_wJNKgvk&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/7__n65RxJSA&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+  </channel>
+</rss>

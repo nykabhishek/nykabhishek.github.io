@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>SM Murigendrappa | Abhishek Nayak</title>
+    <link>https://nykabhishek.github.io/authors/sm-murigendrappa/</link>
+      <atom:link href="https://nykabhishek.github.io/authors/sm-murigendrappa/index.xml" rel="self" type="application/rss+xml" />
+    <description>SM Murigendrappa</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Fri, 01 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>SM Murigendrappa</title>
+      <link>https://nykabhishek.github.io/authors/sm-murigendrappa/</link>
+    </image>
+    
+    <item>
+      <title>Stability Enhancement Of a Powered Two Wheeler Vehicle Under Curve Negotiation</title>
+      <link>https://nykabhishek.github.io/publication/nayak-2016-stability/</link>
+      <pubDate>Fri, 01 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/publication/nayak-2016-stability/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
