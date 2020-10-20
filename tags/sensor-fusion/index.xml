@@ -1,53 +1,16 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Deep Learning | Abhishek Nayak</title>
-    <link>https://nykabhishek.github.io/tags/deep-learning/</link>
-      <atom:link href="https://nykabhishek.github.io/tags/deep-learning/index.xml" rel="self" type="application/rss+xml" />
-    <description>Deep Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Tue, 01 Jan 2019 00:00:00 +0000</lastBuildDate>
+    <title>Sensor Fusion | Abhishek Nayak</title>
+    <link>https://nykabhishek.github.io/tags/sensor-fusion/</link>
+      <atom:link href="https://nykabhishek.github.io/tags/sensor-fusion/index.xml" rel="self" type="application/rss+xml" />
+    <description>Sensor Fusion</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
-      <title>Deep Learning</title>
-      <link>https://nykabhishek.github.io/tags/deep-learning/</link>
+      <title>Sensor Fusion</title>
+      <link>https://nykabhishek.github.io/tags/sensor-fusion/</link>
     </image>
-    
-    <item>
-      <title>Reference Machine Vision for ADAS functions</title>
-      <link>https://nykabhishek.github.io/project/rmv/</link>
-      <pubDate>Tue, 01 Jan 2019 00:00:00 +0000</pubDate>
-      <guid>https://nykabhishek.github.io/project/rmv/</guid>
-      <description>&lt;p&gt;
-    &lt;b&gt;Location:&lt;/b&gt; Texas A&amp;M Transportation Institute (TTI) - College Station, TX
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;b&gt;Abstract:&lt;/b&gt;
-    Studies have shown that fatalities due to unintentional roadway departures can be significantly reduced if Lane Departure Warning (LDW) and Lane Keep Assist (LKA) systems are used effectively. 
-    However, these systems are not yet popular because the systems are not robust due, in part to the lack of suitable standards for pavement markings that enable reliable functionality of the sensor system. 
-    The objective of this project is to develop a reference Lane Detection (LD) system that will provide a benchmark for evaluating different lane markings, sensors, and perception algorithms. 
-    The goal of the project is to create a system that will validate the effectiveness of lane markings as well as the vision algorithms through a systematic development of LD metrics, and testing procedures for LD algorithms.
-&lt;/p&gt;
-&lt;p&gt; 
-    Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/reference-machine-vision-for-adas-functions/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the project on Safe-D Website.
-&lt;/p&gt;
-&lt;p&gt;
-    This is Safe-D UTC sponsored project. &lt;a href=&#34;https://rip.trb.org/view/1599232/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1599232)&lt;/a&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;b&gt;Referances:&lt;/b&gt;
-    &lt;br&gt;Nayak, A., Pike, A., Rathinam, S., &amp; Gopalswamy, S. (2020). Reference test system for machine vision used for ADAS functions (No. 2020-01-0096). SAE Technical Paper.
-&lt;/p&gt;
-&lt;p&gt;
-&lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/lPJ7cJMTVgI&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/rZTTLVrJFtM&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-&lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/U4w29nLmVa0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-</description>
-    </item>
     
     <item>
       <title>Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV)</title>
@@ -136,6 +99,27 @@
 &lt;/p&gt;
 &lt;p&gt;
     &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/X9t4WEsonf0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Development of autonomous driving capability on a Ford Focus</title>
+      <link>https://nykabhishek.github.io/project/focus/</link>
+      <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/focus/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; CAST Program (&lt;a href=&#34;https://cast.tamu.edu/),&#34;&gt;https://cast.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;b&gt;Collaborators:&lt;/b&gt; Kenny Chour, PhD Student - Texas A&amp;M University
 &lt;/p&gt;</description>
     </item>
     

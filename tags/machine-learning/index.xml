@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Machine Learning | Abhishek&#39;s Webpage</title>
+    <title>Machine Learning | Abhishek Nayak</title>
     <link>https://nykabhishek.github.io/tags/machine-learning/</link>
       <atom:link href="https://nykabhishek.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Machine Learning</title>
@@ -27,14 +27,14 @@
 &lt;p&gt;
     &lt;b&gt;&lt;a href=&#34;https://sites.google.com/tamu.edu/ravev/&#34; target=&#34;_blank&#34;&gt;Visit Project Website&lt;/a&gt;&lt;/b&gt; 
 &lt;/p&gt;
+&lt;p&gt;
+    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
+&lt;/p&gt;
 &lt;p&gt; 
     Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the project on Safe-D Website.
 &lt;/p&gt;
 &lt;p&gt;
-    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-    The final report of the project can be viewed &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/wp-content/uploads/2020/06/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+    The final report of the project can be viewed &lt;a href=&#34;https://safed.vtti.vt.edu/wp-content/uploads/2020/08/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
     &lt;h4&gt;References:&lt;/h4&gt;

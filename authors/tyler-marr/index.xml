@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Tyler Marr | Abhishek&#39;s Webpage</title>
+    <title>Tyler Marr | Abhishek Nayak</title>
     <link>https://nykabhishek.github.io/authors/tyler-marr/</link>
       <atom:link href="https://nykabhishek.github.io/authors/tyler-marr/index.xml" rel="self" type="application/rss+xml" />
     <description>Tyler Marr</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Mon, 01 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Tyler Marr</title>

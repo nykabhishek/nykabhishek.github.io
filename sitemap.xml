@@ -198,6 +198,11 @@
   </url>
   
   <url>
+    <loc>https://nykabhishek.github.io/tags/computer-vision/</loc>
+    <lastmod>2019-01-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://nykabhishek.github.io/tags/deep-learning/</loc>
     <lastmod>2019-01-01T00:00:00+00:00</lastmod>
   </url>
@@ -233,17 +238,17 @@
   </url>
   
   <url>
-    <loc>https://nykabhishek.github.io/tags/computer-vision/</loc>
-    <lastmod>2018-01-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://nykabhishek.github.io/tags/machine-learning/</loc>
     <lastmod>2018-01-27T00:00:00+00:00</lastmod>
   </url>
   
   <url>
     <loc>https://nykabhishek.github.io/project/ravev/</loc>
+    <lastmod>2018-01-27T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://nykabhishek.github.io/tags/sensor-fusion/</loc>
     <lastmod>2018-01-27T00:00:00+00:00</lastmod>
   </url>
   

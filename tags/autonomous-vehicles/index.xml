@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Autonomous Vehicles | Abhishek&#39;s Webpage</title>
+    <title>Autonomous Vehicles | Abhishek Nayak</title>
     <link>https://nykabhishek.github.io/tags/autonomous-vehicles/</link>
       <atom:link href="https://nykabhishek.github.io/tags/autonomous-vehicles/index.xml" rel="self" type="application/rss+xml" />
     <description>Autonomous Vehicles</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Autonomous Vehicles</title>
@@ -27,14 +27,14 @@
 &lt;p&gt;
     &lt;b&gt;&lt;a href=&#34;https://sites.google.com/tamu.edu/ravev/&#34; target=&#34;_blank&#34;&gt;Visit Project Website&lt;/a&gt;&lt;/b&gt; 
 &lt;/p&gt;
+&lt;p&gt;
+    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
+&lt;/p&gt;
 &lt;p&gt; 
     Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the project on Safe-D Website.
 &lt;/p&gt;
 &lt;p&gt;
-    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-    The final report of the project can be viewed &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/wp-content/uploads/2020/06/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+    The final report of the project can be viewed &lt;a href=&#34;https://safed.vtti.vt.edu/wp-content/uploads/2020/08/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
 &lt;/p&gt;
 &lt;p&gt;
     &lt;h4&gt;References:&lt;/h4&gt;
@@ -69,11 +69,7 @@
 &lt;/p&gt;
 &lt;p style=&#34;text-align:justify;&#34;&gt;
     &lt;b&gt;Abstract:&lt;/b&gt;
-    IEA is a new paradigm in Autonomous Vehicle technology that looks at offloading the core computational capabilities of awareness generation and path planning from the vehicle out onto Smart Roadside Units equipped with various sensors.
-    Through this distributed setup IEA provides a solution of shared liabilities by transferring the primary responsibility of localization from vehicle to infrastructure which in-turn enables of greater situational awareness of the area under the purview of IEA.
-    IEA architecture is deployed on specific sections of roads or special traffic corridors by installing Road-Side Units (RSU) on either side of the road. 
-    These RSUs are fitted with multi-sensor smart packs (MSSP) containing sensors required for localizing vehicles. 
-    These MSSPs monitor the vehicles in the section of the roads under the purview of IEA and aid in generating the situational awareness which can be transmitted to the vehicles subscribing to this information. 
+    IEA is a new paradigm in Autonomous Vehicle technology that looks at offloading the core computational capabilities of awareness generation and path planning from the vehicle out onto Smart Roadside Units equipped with various sensors. Through this distributed setup IEA provides a solution of shared liabilities by transferring the primary responsibility of localization from vehicle to infrastructure which in-turn enables of greater situational awareness of the area under the purview of IEA. IEA architecture is deployed on specific sections of roads or special traffic corridors by installing Road-Side Units (RSU) on either side of the road. These RSUs are fitted with multi-sensor smart packs (MSSP) containing sensors required for localizing vehicles. These MSSPs monitor the vehicles in the section of the roads under the purview of IEA and aid in generating the situational awareness which can be transmitted to the vehicles subscribing to this information. 
     &lt;br&gt;
     &lt;br&gt;
     MSSP includes several sensors that carry-out specific individual tasks and as a whole aid in generating the localization information. 
@@ -112,10 +108,10 @@
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/focus/</guid>
       <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; CAST Program (&lt;a href=&#34;https://cast.tamu.edu/),&#34;&gt;https://cast.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
-&lt;!-- &lt;p&gt; --&gt;
-&lt;pre&gt;&lt;code&gt;&amp;lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&amp;gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;!-- &lt;/p&gt; --&gt;
+&lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
 &lt;p&gt;
     &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
