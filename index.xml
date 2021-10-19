@@ -5,7 +5,7 @@
     <link>https://nykabhishek.github.io/</link>
       <atom:link href="https://nykabhishek.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Abhishek Nayak</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2020</copyright><lastBuildDate>Wed, 01 Apr 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2021</copyright><lastBuildDate>Fri, 15 Oct 2021 13:30:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Abhishek Nayak</title>
@@ -55,11 +55,75 @@
     </item>
     
     <item>
+      <title>Webinar - Reference Machine Vision for ADAS Functions</title>
+      <link>https://nykabhishek.github.io/talk/21_10_15_safed_webinar/</link>
+      <pubDate>Fri, 15 Oct 2021 13:30:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/talk/21_10_15_safed_webinar/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click on the &lt;strong&gt;Slides&lt;/strong&gt; button above to view the built-in slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Slides can be added in a few ways:
+
+- **Create** slides using Academic&#39;s [*Slides*](https://sourcethemes.com/academic/docs/managing-content/#create-slides) feature and link using `slides` parameter in the front matter of the talk file
+- **Upload** an existing slide deck to `static/` and link using `url_slides` parameter in the front matter of the talk file
+- **Embed** your slides (e.g. Google Slides) or presentation video on this page using [shortcodes](https://sourcethemes.com/academic/docs/writing-markdown-latex/).
+
+Further talk details can easily be added to this page using *Markdown* and $\rm \LaTeX$ math code. --&gt;
+&lt;p&gt;
+  &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/watch?v=uAnHRLz7cqA&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Robotic path planning algorithms in presence of obstacles</title>
+      <link>https://nykabhishek.github.io/project/obstacle/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/obstacle/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;!-- &lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt; --&gt;
+&lt;p&gt;
+    &lt;b&gt;Collaborators:&lt;/b&gt; Satyanarayana G Manyam (https://scholar.google.com/citations?user=biUXytYAAAAJ&amp;hl=en&amp;oi=ao)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
       <title>An Approximation Algorithm for a Task Allocation, Sequencing and Scheduling Problem Involving a Human-Robot Team</title>
       <link>https://nykabhishek.github.io/publication/8977310/</link>
       <pubDate>Wed, 01 Apr 2020 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/publication/8977310/</guid>
       <description></description>
+    </item>
+    
+    <item>
+      <title>Heuristics and Reinforcement learning models for curvature constrained vehicle routing problems</title>
+      <link>https://nykabhishek.github.io/project/vns_dubins/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/vns_dubins/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;!-- &lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt; --&gt;
+</description>
     </item>
     
     <item>

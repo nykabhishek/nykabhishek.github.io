@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Path Planning | Abhishek Nayak</title>
+    <link>https://nykabhishek.github.io/tags/path-planning/</link>
+      <atom:link href="https://nykabhishek.github.io/tags/path-planning/index.xml" rel="self" type="application/rss+xml" />
+    <description>Path Planning</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2021</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <image>
+      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <title>Path Planning</title>
+      <link>https://nykabhishek.github.io/tags/path-planning/</link>
+    </image>
+    
+    <item>
+      <title>Robotic path planning algorithms in presence of obstacles</title>
+      <link>https://nykabhishek.github.io/project/obstacle/</link>
+      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/obstacle/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;!-- &lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt; --&gt;
+&lt;p&gt;
+    &lt;b&gt;Collaborators:&lt;/b&gt; Satyanarayana G Manyam (https://scholar.google.com/citations?user=biUXytYAAAAJ&amp;hl=en&amp;oi=ao)
+&lt;/p&gt;</description>
+    </item>
+    
+    <item>
+      <title>Heuristics and Reinforcement learning models for curvature constrained vehicle routing problems</title>
+      <link>https://nykabhishek.github.io/project/vns_dubins/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://nykabhishek.github.io/project/vns_dubins/</guid>
+      <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;!-- &lt;p&gt;
+    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
+    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt; --&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
