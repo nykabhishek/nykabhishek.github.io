@@ -761,10 +761,11 @@
 
     <div style="text-align: justify">
 <p>Hi! Welcome to my webpage.</p>
-<p>I’m Abhishek Nayak, a Ph.D. candidate in the Department of Mechanical Engineering at Texas A&amp;M University, College Station. My research interests include developing path-planning and vehicle routing algorithms, robotic perception, computer vision, sensor fusion, and learning-based approaches for problem-solving. I’m passionate about safe transportation and am currently working with the Texas A&amp;M Transportation Institute on 
+<p>I’m Abhishek Nayak, a Ph.D. candidate in the Department of Mechanical Engineering at Texas A&amp;M University, College Station. My research interests include perception and motion planning for Robots. I am passionate about safe transportation and am currently working with the Texas A&amp;M Transportation Institute on 
 <a href="https://safed.vtti.vt.edu/" target="_blank" rel="noopener">SAFE-D</a> projects that aim at improving road safety standards.</p>
-<p>I’ve been part of the Autonomous Systems Laboratory at Texas A&amp;M University, working with Dr. Sivakumar Rathinam since Fall 2017. I received my Master of Science degree in Dec 2019. My thesis work was on developing a vision-based response of autonomous vehicles towards emergency vehicles using infrastructure-enabled autonomy. I also have extensive experience working in the automotive industry before joining Texas A&amp;M. I was working as a Design Engineer at the R&amp;D of TVS Motor Company, India, where I was responsible for the design and development of cylinder-head and valve train parts.</p>
-<p>In my free time, I enjoy playing tennis, soccer, cooking, hiking and traveling.</p>
+<p>I have been part of the Autonomous Systems Laboratory at Texas A&amp;M University, working with Dr. Sivakumar Rathinam since Fall 2017.  I have extensive hands-on experience implementing robotic perception, computer vision, sensor fusion, SLAM, and developing heuristics and learning-based algorithms for motion planning of indoor and outdoor autonomous vehicles.</p>
+<p>I am an experienced industry professional and have worked in the automotive industry for three years as a Design Engineer at the R&amp;D of TVS Motor Company, India, where I was responsible for the powertrain design and development.</p>
+<p>I enjoy playing tennis, running, soccer, cooking, and traveling.</p>
   <!-- I work on developing solutions for sensing and planning problems in autonomous vehicles and smart infrastructures.  -->
   <!-- I've also been associated with the CAST group at Texas A&M working with Dr. Swaminathan Gopalswamy  -->
 </div>
@@ -1267,14 +1268,14 @@
 
 
 
-<div class="col-lg-12 project-item isotope-item js-id-Path-Planning js-id-Algorithms js-id-Heuristics">
+<div class="col-lg-12 project-item isotope-item js-id-Planning js-id-Algorithms js-id-Heuristics">
   <div class="row align-items-center">
     <div class="col-12 col-md-6">
       <h3 class="article-title mb-0 mt-0"><a href="/project/multislam/" >Multi-Agent SLAM and navigation using ROSBot</a></h3>
 
       
       <div class="article-style">
-        Used ROSBot by Husarion to implement multi-agent SLAM algorithms to obtain occupancy grid maps using multiple car-like robots. These robots were also used as a demonstration platform to showcase the path planning / vehicle routing algorithms I developed as part of my PhD thesis on &ldquo;Planning and Vision-based tools for Autonomous Vehicles&rdquo;
+        Implemented multi-agent SLAM to construct occupancy grid maps using ROSBots 2.0 by Husatrion. These robots were also used as a demonstration platform to showcase the motion planning algorithms I developed as part of my PhD thesis on &ldquo;Planning and Vision-based tools for Autonomous Vehicles&rdquo;
       </div>
       
 
@@ -1294,6 +1295,14 @@
 
 
 
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1" href="https://github.com/nykabhishek/rosbot_multi-agent_SLAM" target="_blank" rel="noopener">
+  Code
+</a>
 
 
 
@@ -1393,7 +1402,7 @@
 
       
       <div class="article-style">
-        In this project, I developed new bounding approaches for robots in curvature constrained shortest path problems in presence of obstacles.
+        In this project, I developed new bounding approaches for shortest path problems involving curvature constrained robots in presence of obstacles.
       </div>
       
 
@@ -1491,7 +1500,7 @@
 
       
       <div class="article-style">
-        As a part of this work I developed heuristics, and exact methods to obtain fast feasible solutions for the Dubins mTSP problem. I also explored learning based approached to solve this problem and Trained reinforcement learning (RL) models, recurrent neural networks (RNN’s), LSTM networks, and Encoder-Decoder neural networks for graph networks using PyTorch. The results obtained were compared against the solutions from Mixed-Integer programs (MIP) formulations that were solved using CPLEX and Gurobi solvers on high-performance computing servers.
+        As a part of this work, I developed heuristics, Mixed-Integer programs (MIP), trained neural networks, and reinforcement learning (RL) models to solve curvature-constrained multi-vehicle routing problems. The reinforcement learning (RL) models and recurrent neural networks (RNN’s) for graphs were implemented and trained using PyTorch. The Mixed-Integer programs (MIP) formulations were solved using CPLEX solvers on high-performance computing servers.
       </div>
       
 
@@ -1594,7 +1603,7 @@
 
       
       <div class="article-style">
-        The objective of this project is to develop a reference Lane Detection (LD) system that will provide a benchmark for evaluating different lane markings, sensors and perception algorithms. An extensive video dataset was collected by driving on various roads in Central Texas comprising of different weather conditions, time of day, pavement marking presence and luminance variables. The videos were evaluated on different state-of-the art LD algorithms and their performance was ranked based on a set of metrics specifically developed for evaluating the LD effectiveness.
+        The objective of this project was to develop a reference Lane Detection (LD) system that will provide a benchmark for evaluating different lane markings, sensors, and perception algorithms. An extensive video dataset was developed by driving on various roads in Central Texas with changing weather conditions, time of day, pavement marking presence, and luminance variables. The dataset was used to develop a reference system to benchmark lane marking materials and their effect on lane detection (LD) performance of perception algorithms used in Lane Departure Warning (LDW) and Lane Keep Assist (LKA) modules.
       </div>
       
 
@@ -1729,7 +1738,7 @@
 
       
       <div class="article-style">
-        The objective of this project was to explore how an autonomous vehicle must safely respond to different classes of emergency vehicles using sound, vision and other onboard sensors. I developed vision-based emergency vehicle detection, tracking and localization capabilities for the smart road-side infrastructure using Python and ROS. YOLO-v3 was used as the base architecture for object detection, and a TensorFlow-based object classification neural network was developed using Keras.
+        The objective of this project was to develop response protocols for an autonomous vehicle when it senses the presence of emergency vehicles using sound, vision, and other onboard sensors. As part of the project, I developed a public image dataset for Emergency vehicles (EV); trained object detection, classification, and tracking models developed using scikit-learn and Keras, and implemented SLAM for control of the autonomous vehicle in the presence of emergency responders.
       </div>
       
 
@@ -1904,7 +1913,7 @@
 
       
       <div class="article-style">
-        The objective of this project is to develop a distributed intelligence architecture for connected autonomous vehicles by offloading core computational functionalities to the infrastructure. I set up the DSRC communication network for V2V, V2I, and I2I, and developed machine vision capabilities for on-road object detection, tracking, camera/vision assisted SLAM on the smart-infrastructure to enable autonomy for connected vehicles. All the above techniques were developed on Python, C++, and implemented using ROS.
+        The objective of this project was to develop a distributed intelligence architecture for connected autonomous vehicles by offloading core computational functionalities to the infrastructure. I worked on establishing the V2V and V2I communication network using DSRC; developed machine vision capabilities like object detection, semantic segmentation, and tracking for smart-infrastructure-assisted SLAM and autonomous control for connected vehicles.
       </div>
       
 

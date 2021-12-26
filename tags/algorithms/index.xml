@@ -18,14 +18,16 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/multislam/</guid>
       <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
-&lt;p&gt;
+&lt;!-- &lt;p&gt;
     &lt;img src=&#39;https://nykabhishek.github.io/images/rosbots.jpg&#39;&gt;
     &lt;small&gt; ROSBots by Husarion &lt;/small&gt;
+&lt;/p&gt; --&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/oH0RVqI9pJU&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://youtu.be/oH0RVqI9pJU&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-</description>
+    &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CRFiTtZXsXA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;</description>
     </item>
     
     <item>
@@ -34,16 +36,9 @@
       <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/obstacle/</guid>
       <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
-&lt;!-- &lt;p&gt;
-    &lt;img src=&#39;https://nykabhishek.github.io/images/focus_circuit.jpg&#39;&gt;
-    &lt;small&gt; Arduino microcontroller based drive-by-wire setup. &lt;/small&gt;
-&lt;/p&gt;
 &lt;p&gt;
     &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/0Qlv_Cc4pwY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/Q8OMI-cLm2E&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt; --&gt;
 &lt;p&gt;
     &lt;b&gt;Collaborators:&lt;/b&gt; Satyanarayana G Manyam (https://scholar.google.com/citations?user=biUXytYAAAAJ&amp;hl=en&amp;oi=ao)
 &lt;/p&gt;</description>
