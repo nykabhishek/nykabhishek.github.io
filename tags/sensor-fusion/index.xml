@@ -5,7 +5,7 @@
     <link>https://nykabhishek.github.io/tags/sensor-fusion/</link>
       <atom:link href="https://nykabhishek.github.io/tags/sensor-fusion/index.xml" rel="self" type="application/rss+xml" />
     <description>Sensor Fusion</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2021</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2022</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
       <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
       <title>Sensor Fusion</title>
@@ -20,29 +20,6 @@
       <description>&lt;!-- &lt;p&gt;
     &lt;b&gt;Location:&lt;/b&gt; Texas A&amp;M Transportation Institute (TTI) - College Station, TX
 &lt;/p&gt; --&gt;
-&lt;p&gt;
-    &lt;h4&gt;Abstract:&lt;/h4&gt;
-    The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. I developed vision-based algorithms to reliably detect and track emergency vehicles from a video feed using image processing, machine learning, deep neural networks and other computer vison techniques.
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;b&gt;&lt;a href=&#34;https://sites.google.com/tamu.edu/ravev/&#34; target=&#34;_blank&#34;&gt;Visit Project Website&lt;/a&gt;&lt;/b&gt; 
-&lt;/p&gt;
-&lt;p&gt;
-    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt; 
-    Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the project on Safe-D Website.
-&lt;/p&gt;
-&lt;p&gt;
-    The final report of the project can be viewed &lt;a href=&#34;https://safed.vtti.vt.edu/wp-content/uploads/2020/08/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;h4&gt;References:&lt;/h4&gt;
-    &lt;ul&gt;
-        &lt;li&gt;Nayak, A., Gopalswamy, S., &amp; Rathinam, S. (2019). Vision-Based Techniques for Identifying Emergency Vehicles (No. 2019-01-0889). SAE Technical Paper.&lt;/li&gt;
-        &lt;li&gt;Nayak, A., Rathinam, S., &amp; Gopalswamy, S. (2020). Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV) (No. 03-051).&lt;/li&gt;
-    &lt;/ul&gt;
-&lt;/p&gt;
 &lt;h4&gt; &lt;b&gt;Videos:&lt;/b&gt; &lt;/h4&gt;
 &lt;p style=&#34;text-align:center; line-height:80%&#34; &gt; 
     &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/ILjxfTvve_M&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
@@ -56,7 +33,31 @@
 &lt;br&gt;
     &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/RnoCnT-sKZ0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
     &lt;small&gt; &lt;b&gt; High-speed lane change:&lt;/b&gt; This video shows in action the high speed vehicle controller developed as a part of the RAVEV project. This video was collected at RELLIS campus facility of Texas A&amp;M University. &lt;/small&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+&lt;p style=&#34;text-align:center&#34;&gt;
+    &lt;h4&gt;&lt;b&gt;&lt;a href=&#34;https://sites.google.com/tamu.edu/ravev/&#34; target=&#34;_blank&#34;&gt;Visit Project Website here&lt;/a&gt;&lt;/b&gt;&lt;/h4&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;h4&gt;Abstract:&lt;/h4&gt;
+    The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. I developed vision-based algorithms to reliably detect and track emergency vehicles from a video feed using image processing, machine learning, deep neural networks and other computer vison techniques.
+&lt;/p&gt;
+&lt;p&gt;
+    This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt; 
+    Follow this &lt;a href=&#34;https://www.vtti.vt.edu/utc/safe-d/index.php/projects/response-of-autonomous-vehicles-to-emergency-response-vehicles/&#34; target=&#34;_blank&#34;&gt;link&lt;/a&gt; to view the Safe-D project website.
+&lt;/p&gt;
+&lt;p&gt;
+    The final SAFE-D report can be viewed &lt;a href=&#34;https://safed.vtti.vt.edu/wp-content/uploads/2020/08/03-051_FinalResearchReport_Final.pdf&#34; target=&#34;_blank&#34;&gt;here&lt;/a&gt;.
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;h4&gt;References:&lt;/h4&gt;
+    &lt;ul&gt;
+        &lt;li&gt;Nayak, A., Gopalswamy, S., &amp; Rathinam, S. (2019). Vision-Based Techniques for Identifying Emergency Vehicles (No. 2019-01-0889). SAE Technical Paper.&lt;/li&gt;
+        &lt;li&gt;Nayak, A., Rathinam, S., &amp; Gopalswamy, S. (2020). Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV) (No. 03-051).&lt;/li&gt;
+    &lt;/ul&gt;
+&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -65,7 +66,24 @@
       <pubDate>Sun, 27 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/iea/</guid>
       <description>&lt;p&gt;
-    &lt;b&gt;Location:&lt;/b&gt; &lt;a href=&#34;https://cast.tamu.edu/&#34; target=&#34;_blank&#34;&gt;CAST Program&lt;/a&gt;, Texas A&amp;M University - College Station, TX
+    &lt;b&gt;Location:&lt;/b&gt; &lt;a href=&#34;https://rellis.tamus.edu/&#34; target=&#34;_blank&#34;&gt;The Rellis campus&lt;/a&gt;, Texas A&amp;M University - College Station, TX
+    &lt;b&gt;Collaborators:&lt;/b&gt; &lt;a href=&#34;https://cast.tamu.edu/&#34; target=&#34;_blank&#34;&gt;CAST Program&lt;/a&gt;
+&lt;/p&gt;
+&lt;h4&gt; &lt;b&gt;Videos:&lt;/b&gt; &lt;/h4&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/s4xNCPnUPRg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/eOoPIvJhj3k&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/iMSxPE9c2QQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/7MCkzDjaPPY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p&gt;
+    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/X9t4WEsonf0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
 &lt;/p&gt;
 &lt;p style=&#34;text-align:justify;&#34;&gt;
     &lt;b&gt;Abstract:&lt;/b&gt;
@@ -82,25 +100,11 @@
         &lt;li&gt;Gopalswamy, S., &amp; Rathinam, S. (2018, June). Infrastructure enabled autonomy: A distributed intelligence architecture for autonomous vehicles. In 2018 IEEE Intelligent Vehicles Symposium (IV) (pp. 986-992). IEEE.&lt;/li&gt;
     &lt;/ol&gt;
 &lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/s4xNCPnUPRg&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/eOoPIvJhj3k&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/iMSxPE9c2QQ&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/7MCkzDjaPPY&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p&gt;
-    &lt;iframe width=&#34;720&#34; height=&#34;405&#34; src=&#34;https://www.youtube.com/embed/X9t4WEsonf0&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;</description>
+</description>
     </item>
     
     <item>
-      <title>Development of autonomous driving capability on a Ford Focus</title>
+      <title>Low-cost drive-by-wire system for Ford Focus</title>
       <link>https://nykabhishek.github.io/project/focus/</link>
       <pubDate>Tue, 22 Aug 2017 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/focus/</guid>
