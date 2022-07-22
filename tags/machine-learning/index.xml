@@ -5,9 +5,9 @@
     <link>https://nykabhishek.github.io/tags/machine-learning/</link>
       <atom:link href="https://nykabhishek.github.io/tags/machine-learning/index.xml" rel="self" type="application/rss+xml" />
     <description>Machine Learning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2022</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 27 Jan 2018 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://nykabhishek.github.io/images/icon_hu13c0b1f716161a52dabef6531ec0fd3b_24281_512x512_fill_lanczos_center_2.png</url>
       <title>Machine Learning</title>
       <link>https://nykabhishek.github.io/tags/machine-learning/</link>
     </image>
@@ -40,6 +40,8 @@
 &lt;p&gt;
     &lt;h4&gt;Abstract:&lt;/h4&gt;
     The objective of this project is to explore an ideal response action of an autonomous vehicle towards response vehicles in emergency scenarios using vision, sound and other sensors. I developed vision-based algorithms to reliably detect and track emergency vehicles from a video feed using image processing, machine learning, deep neural networks and other computer vison techniques.
+&lt;pre&gt;&lt;code&gt;The objective of this project was to develop response protocols for autonomous vehicles to safely respond to different classes of emergency vehicles using fused data from sound, vision, and other onboard sensors. As a part of this project, I generated an Emergency Vehicle (EV) image dataset and trained computer vision models to identify and localize EVs in crowded environments. I trained ML models using decision trees, nearest neighbors, boosting, and SVM on different feature vectors to perform EV classification and implemented Spatio-temporal multi-object tracking algorithms to track EVs in video sequences. Finally, two distinct frameworks for the response protocol of an autonomous vehicle in emergency scenarios were proposed.
+&lt;/code&gt;&lt;/pre&gt;
 &lt;/p&gt;
 &lt;p&gt;
     This was a Safe-D UTC sponsored project &lt;a href=&#34;https://rip.trb.org/view/1500797/&#34; target=&#34;_blank&#34;&gt;(https://rip.trb.org/view/1500797)&lt;/a&gt;.

@@ -5,9 +5,9 @@
     <link>https://nykabhishek.github.io/tags/motion-planning/</link>
       <atom:link href="https://nykabhishek.github.io/tags/motion-planning/index.xml" rel="self" type="application/rss+xml" />
     <description>Motion Planning</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>&amp;copy 2022</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>© 2022</copyright><lastBuildDate>Sat, 01 May 2021 00:00:00 +0000</lastBuildDate>
     <image>
-      <url>img/map[gravatar:%!s(bool=false) shape:circle]</url>
+      <url>https://nykabhishek.github.io/images/icon_hu13c0b1f716161a52dabef6531ec0fd3b_24281_512x512_fill_lanczos_center_2.png</url>
       <title>Motion Planning</title>
       <link>https://nykabhishek.github.io/tags/motion-planning/</link>
     </image>
@@ -27,7 +27,9 @@
 &lt;/p&gt;
 &lt;p&gt;
     &lt;iframe width=&#34;560&#34; height=&#34;315&#34; src=&#34;https://www.youtube.com/embed/CRFiTtZXsXA&#34; title=&#34;YouTube video player&#34; frameborder=&#34;0&#34; allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&#34; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;</description>
+&lt;/p&gt;
+&lt;p&gt;In this project, I implemented multi-agent SLAM to obtain occupancy grid maps from point-cloud data via autonomous frontier exploration using ROSBots 2.0 by Husarion. I tinkered around to establish navigation capabilities on this robot and used algorithms like Dijkstra, A*, D* lite, RRT, and Probabilistic Roadmap (PRM) planners for indoor navigation. Further, I used these robots as a platform for demonstrating proof-of-concept prototypes of multi-agent path planning methods developed as part of my Ph.D. thesis &amp;ldquo;Planning and Vision-based tools for Autonomous Vehicles.&lt;/p&gt;
+</description>
     </item>
     
     <item>
@@ -51,6 +53,9 @@
       <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
       <guid>https://nykabhishek.github.io/project/vns_dubins/</guid>
       <description>&lt;p&gt;&lt;b&gt;Location:&lt;/b&gt; Autonomous Systems Laboratory (&lt;a href=&#34;https://autonomy.engr.tamu.edu/),&#34;&gt;https://autonomy.engr.tamu.edu/),&lt;/a&gt; Texas A&amp;amp;M University - College Station, TX&lt;/p&gt;
+&lt;p style=&#34;text-align:justify;&#34;&gt;
+&lt;p&gt;As a part of this work, I developed graph search heuristics, formulated mixed-Integer programs (MIP), trained graph CNNs, and reinforcement learning (RL) models to solve min-max task assignment problems for a fleet of non-holonomic vehicles curvature-constrained multi-vehicle routing problems. A comparative study was performed to evaluate performance on different metaheuristics, primarily the Variable Neighborhood Search (VNS). The reinforcement learning (RL) models and graph CNNs are implemented and trained using PyTorch. The MIP formulations were solved using CPLEX and gurobi solvers on high-performance computing servers.&lt;/p&gt;
+&lt;/p&gt;
 &lt;p&gt;
     &lt;h4&gt; Work in progress... Watch this space for more updates &lt;/h4&gt;
 &lt;/p&gt;

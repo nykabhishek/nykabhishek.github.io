@@ -1,5 +1,4 @@
-<!DOCTYPE html>
-<html lang="en-us">
+<!DOCTYPE html><html lang="en-us" >
 
 <head>
 
@@ -21,14 +20,14 @@
   
   
 
-  <meta name="author" content="Abhishek Nayak">
+  
 
   
   
   
     
   
-  <meta name="description" content="The objective of this project was to develop a distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure. I set up the Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication network using DSRC and built software stacks on smart infrastructures for object detection, tracking, semantic segmentation, and localization. Further, I calibrated the cameras and sensor systems using OpenCV and developed SLAM capabilities for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using estimation filters (like Monte-Carlo and Extended Kalman Filters (EKF)) for autonomous navigation of a Lincoln MKZ vehicle.">
+  <meta name="description" content="A distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure.">
 
   
   <link rel="alternate" hreflang="en-us" href="https://nykabhishek.github.io/project/iea/">
@@ -213,6 +212,9 @@
 
 
   
+  
+
+  
 
   <link rel="manifest" href="/index.webmanifest">
   <link rel="icon" type="image/png" href="/images/icon_hu13c0b1f716161a52dabef6531ec0fd3b_24281_32x32_fill_lanczos_center_2.png">
@@ -220,6 +222,8 @@
 
   <link rel="canonical" href="https://nykabhishek.github.io/project/iea/">
 
+  
+  
   
   
   
@@ -233,7 +237,7 @@
   <meta property="og:site_name" content="Abhishek Nayak">
   <meta property="og:url" content="https://nykabhishek.github.io/project/iea/">
   <meta property="og:title" content="Infrastructure Enabled Autonomy (IEA) | Abhishek Nayak">
-  <meta property="og:description" content="The objective of this project was to develop a distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure. I set up the Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication network using DSRC and built software stacks on smart infrastructures for object detection, tracking, semantic segmentation, and localization. Further, I calibrated the cameras and sensor systems using OpenCV and developed SLAM capabilities for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using estimation filters (like Monte-Carlo and Extended Kalman Filters (EKF)) for autonomous navigation of a Lincoln MKZ vehicle."><meta property="og:image" content="https://nykabhishek.github.io/project/iea/featured.jpg">
+  <meta property="og:description" content="A distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure."><meta property="og:image" content="https://nykabhishek.github.io/project/iea/featured.jpg">
   <meta property="twitter:image" content="https://nykabhishek.github.io/project/iea/featured.jpg"><meta property="og:locale" content="en-us">
   
     
@@ -272,11 +276,6 @@
   "datePublished": "2017-08-27T00:00:00Z",
   "dateModified": "2017-08-27T00:00:00Z",
   
-  "author": {
-    "@type": "Person",
-    "name": "Abhishek Nayak"
-  },
-  
   "publisher": {
     "@type": "Organization",
     "name": "Abhishek Nayak",
@@ -285,7 +284,7 @@
       "url": "https://nykabhishek.github.io/images/icon_hu13c0b1f716161a52dabef6531ec0fd3b_24281_192x192_fill_lanczos_center_2.png"
     }
   },
-  "description": "The objective of this project was to develop a distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure. I set up the Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication network using DSRC and built software stacks on smart infrastructures for object detection, tracking, semantic segmentation, and localization. Further, I calibrated the cameras and sensor systems using OpenCV and developed SLAM capabilities for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using estimation filters (like Monte-Carlo and Extended Kalman Filters (EKF)) for autonomous navigation of a Lincoln MKZ vehicle."
+  "description": "A distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading core computational functionalities to the infrastructure."
 }
 </script>
 
@@ -788,10 +787,13 @@
 </p>
 <p style="text-align:justify;">
     <b>Abstract:</b>
-    IEA is a new paradigm in Autonomous Vehicle technology that looks at offloading the core computational capabilities of awareness generation and path planning from the vehicle out onto Smart Roadside Units equipped with various sensors. Through this distributed setup IEA provides a solution of shared liabilities by transferring the primary responsibility of localization from vehicle to infrastructure which in-turn enables of greater situational awareness of the area under the purview of IEA. IEA architecture is deployed on specific sections of roads or special traffic corridors by installing Road-Side Units (RSU) on either side of the road. These RSUs are fitted with multi-sensor smart packs (MSSP) containing sensors required for localizing vehicles. These MSSPs monitor the vehicles in the section of the roads under the purview of IEA and aid in generating the situational awareness which can be transmitted to the vehicles subscribing to this information. 
+    IEA is a new paradigm in Autonomous Vehicle technology that looks at offloading the core computational capabilities of awareness generation and path planning from the vehicle out onto Smart Roadside Units equipped with various sensors. Through this distributed setup IEA provides a solution to shared liabilities by transferring the primary responsibility of localization from vehicle to infrastructure which in turn enables greater situational awareness of the area under the purview of IEA. IEA architecture is deployed on specific sections of roads or special traffic corridors by installing Road-Side Units (RSU) on either side of the road. These RSUs are fitted with multi-sensor smart packs (MSSP) containing sensors required for localizing vehicles. These MSSPs monitor the vehicles in the section of the roads under the purview of IEA and aid in generating situational awareness which can be transmitted to the vehicles subscribing to this information. 
     <br>
     <br>
-    MSSP includes several sensors that carry-out specific individual tasks and as a whole aid in generating the localization information. For example, cameras installed on the RSUs as a part of the MSSP are used to monitor traffic by identifying and locating all the objects of interest in the traffic corridor. MSSPs are installed with special SmartConnect devices, whose function is to establish wireless connectivity between MSSPs and the vehicles subscribing to its information and thus enabling transmission of information necessary for its localization. The SmartConnect devices are communication medium agnostic and modular so that they can be easily substituted by newer technologies.
+    MSSP includes several sensors that carry-out specific individual tasks and aid in generating the localization information. For example, cameras installed on the RSUs as a part of the MSSP are used to monitor traffic by identifying and locating all the objects of interest in the traffic corridor. MSSPs are installed with special SmartConnect devices, whose function is to establish wireless connectivity between MSSPs and the vehicles subscribing to its information, thus enabling the transmission of information necessary for its localization. The SmartConnect devices are communication medium agnostic and modular so that they can be easily substituted by newer technologies.
+    <br>
+    <br>
+    In this project, I set up the Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication networks using DSRC and developed the software stacks on smart infrastructures for vehicle state estimation, localization, and computer vision tasks like object detection, tracking, and semantic segmentation. Further, I calibrated the cameras and sensor systems using OpenCV and developed SLAM capabilities for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using estimation filters (like Monte-Carlo and Extended Kalman Filters (EKF)) for autonomous navigation of a Lincoln MKZ vehicle.
 </p>
 <p>
     <b>Referances:</b>
@@ -812,11 +814,11 @@
 
 <div class="article-tags">
   
-  <a class="badge badge-light" href="/tags/autonomous-vehicles/">Autonomous Vehicles</a>
-  
   <a class="badge badge-light" href="/tags/computer-vision/">Computer Vision</a>
   
   <a class="badge badge-light" href="/tags/deep-learning/">Deep Learning</a>
+  
+  <a class="badge badge-light" href="/tags/autonomous-vehicles/">Autonomous Vehicles</a>
   
   <a class="badge badge-light" href="/tags/sensor-fusion/">Sensor Fusion</a>
   
@@ -927,23 +929,24 @@
 
 
   
-  
-  
     
-  
-  
-  
-  <div class="media author-card content-widget-hr">
+    
     
       
-      <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hubb8b14f600e854fdf0362328f3f5fd0b_443660_270x270_fill_q90_lanczos_center.jpg" alt="Abhishek Nayak">
     
+    
+    
+    <div class="media author-card content-widget-hr">
+      
+        
+        <img class="avatar mr-3 avatar-circle" src="/authors/admin/avatar_hubb8b14f600e854fdf0362328f3f5fd0b_443660_270x270_fill_q90_lanczos_center.jpg" alt="">
+      
 
-    <div class="media-body">
-      <h5 class="card-title"><a href="https://nykabhishek.github.io/">Abhishek Nayak</a></h5>
-      <h6 class="card-subtitle">Graduate Research Assistant</h6>
-      <p class="card-text">Passionate researcher working on Safe &amp; Connected Autonomous Vehicles.</p>
-      <ul class="network-icon" aria-hidden="true">
+      <div class="media-body">
+        <h5 class="card-title"><a href="https://nykabhishek.github.io/"></a></h5>
+        <h6 class="card-subtitle">Graduate Research Assistant</h6>
+        <p class="card-text">Passionate researcher working on Safe &amp; Connected Autonomy.</p>
+        <ul class="network-icon" aria-hidden="true">
   
     
     
@@ -1060,8 +1063,9 @@
   
 </ul>
 
+      </div>
     </div>
-  </div>
+  
 
 
 
@@ -1194,6 +1198,9 @@
 
     
     
+
+    
+    
     
     
     
@@ -1222,7 +1229,7 @@
   
 
   <p class="powered-by">
-    &amp;copy 2022 &middot; 
+    © 2022 &middot; 
 
     Powered by the
     <a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener">Academic theme</a> for
