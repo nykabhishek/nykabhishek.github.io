@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+
+<head profile="http://www.w3.org/2005/10/profile">
+    <link rel="icon" type="image/png" href="../img/graduation-cap.webp">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>nykabhishek</title>
+    <link rel="stylesheet" href="../stylesheet.css">
+</head>
+
+<body>
+
+    <div class="sidenav">
+        <div class="navblock">
+            <div class="navblock_text">
+                <a href="../index.html">About</a>
+                <a href="../resume.html">Resume</a>
+                <a href="../research.html">Research</a>
+                <a style="color:#0000ff" href="../projects.html">Projects</a>
+                <a href="../blog.html">Blogs</a>
+            </div>
+        </div>
+        <div class="footer">
+            <p>&copy;
+                <script>document.write(new Date().getFullYear());</script> nykabhishek
+            </p>
+        </div>
+    </div>
+
+    <div class="main">
+        <h2>Infrasturcture Enabled Autonomy (IEA)</h2>
+        <p class="blog_date">Dec 30 2021: Abhishek Nayak</p><br>
+
+        <p style="text-align:center;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/s4xNCPnUPRg" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+        </p>
+        <p style="text-align:center;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/eOoPIvJhj3k" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+        </p>
+        <p style="text-align:center;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/iMSxPE9c2QQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+        </p>
+        <p style="text-align:center;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/7MCkzDjaPPY" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+        </p>
+        <p style="text-align:center;">
+            <iframe width="720" height="405" src="https://www.youtube.com/embed/X9t4WEsonf0" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen=""></iframe>
+        </p>
+
+        <p style="text-align:justify;">
+            <b>Abstract:</b>
+            IEA is a new paradigm in Autonomous Vehicle technology that looks at offloading the core computational
+            capabilities of awareness generation and path planning from the vehicle out onto Smart Roadside Units
+            equipped with various sensors. Through this distributed setup IEA provides a solution to shared liabilities
+            by transferring the primary responsibility of localization from vehicle to infrastructure which in turn
+            enables greater situational awareness of the area under the purview of IEA. IEA architecture is deployed on
+            specific sections of roads or special traffic corridors by installing Road-Side Units (RSU) on either side
+            of the road. These RSUs are fitted with multi-sensor smart packs (MSSP) containing sensors required for
+            localizing vehicles. These MSSPs monitor the vehicles in the section of the roads under the purview of IEA
+            and aid in generating situational awareness which can be transmitted to the vehicles subscribing to this
+            information.
+            <br>
+            <br>
+            MSSP includes several sensors that carry-out specific individual tasks and aid in generating the
+            localization information. For example, cameras installed on the RSUs as a part of the MSSP are used to
+            monitor traffic by identifying and locating all the objects of interest in the traffic corridor. MSSPs are
+            installed with special SmartConnect devices, whose function is to establish wireless connectivity between
+            MSSPs and the vehicles subscribing to its information, thus enabling the transmission of information
+            necessary for its localization. The SmartConnect devices are communication medium agnostic and modular so
+            that they can be easily substituted by newer technologies.
+            <br>
+            <br>
+            In this project, I set up the Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I)
+            communication networks using DSRC and developed the software stacks on smart infrastructures for vehicle
+            state estimation, localization, and computer vision tasks like object detection, tracking, and semantic
+            segmentation. Further, I calibrated the cameras and sensor systems using OpenCV and developed SLAM
+            capabilities for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using estimation filters (like
+            Monte-Carlo and Extended Kalman Filters (EKF)) for autonomous navigation of a Lincoln MKZ vehicle.
+        </p>
+
+        <h4>References:</h4>
+        <ol start="1">
+            <li>Nayak, A., Chour, K., Marr, T., Ravipati, D., Dey, S., Gautam, A., ... &amp; Rathinam, S. (2018). A
+                distributed hybrid hardware-in-the-loop simulation framework for infrastructure enabled autonomy. arXiv
+                preprint arXiv:1802.01787.</li>
+            <li>Ravipati, D., Chour, K., Nayak, A., Marr, T., Dey, S., Gautam, A., ... &amp; Swaminathan, G. (2019,
+                October). Vision Based Localization for Infrastructure Enabled Autonomy. In 2019 IEEE Intelligent
+                Transportation Systems Conference (ITSC) (pp. 1638-1643). IEEE.</li>
+            <li>Gopalswamy, S., &amp; Rathinam, S. (2018, June). Infrastructure enabled autonomy: A distributed
+                intelligence architecture for autonomous vehicles. In 2018 IEEE Intelligent Vehicles Symposium (IV) (pp.
+                986-992). IEEE.</li>
+        </ol>
+
+    </div>
+
+</body>
+
+</html>
