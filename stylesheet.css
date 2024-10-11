@@ -230,5 +230,36 @@ a {
 
 }
 
+.gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+
+.gallery img {
+  width: 250px; /* Adjust image width as desired */
+  height: auto;
+  margin: 10px;
+  border: 1px solid #ddd;
+  cursor: pointer; /* Makes image clickable (optional) */
+}
+
+@media screen and (max-width: 700px) {
+  /* ... (rest of your media query) ... */
+
+  .gallery img {
+    width: 100%; /* Adjust image width for smaller screens */
+  }
+}
+
+img {
+  -webkit-touch-callout: none; /* Disable touch callout on iOS */
+  -webkit-user-select: none; /* Disable text selection */
+  -khtml-user-select: none; /* Disable text selection */
+  -moz-user-select: none; /* Disable text selection */
+  -ms-user-select: none; /* Disable text selection */
+  user-select: none; /* Disable text selection */
+}
 
 
