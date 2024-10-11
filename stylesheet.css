@@ -238,7 +238,7 @@ a {
 }
 
 .gallery img {
-  width: 350px; /* Adjust image width as desired */
+  width: 720px; /* Adjust image width as desired */
   height: auto;
   margin: 10px;
   border: 1px solid #ddd;
