@@ -238,11 +238,13 @@ a {
 }
 
 .gallery img {
-  width: 250px; /* Adjust image width as desired */
+  width: 350px; /* Adjust image width as desired */
   height: auto;
   margin: 10px;
   border: 1px solid #ddd;
   cursor: pointer; /* Makes image clickable (optional) */
+  display: block; /* Ensures image displays as a block element */
+  margin: 0 auto; /* Centers the image horizontally */
 }
 
 @media screen and (max-width: 700px) {
