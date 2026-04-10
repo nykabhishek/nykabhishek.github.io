@@ -1,70 +1,325 @@
 <!DOCTYPE html>
 <html lang="en">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>Abhishek Nayak, PhD</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --bg: #fafafa;
+    --surface: #ffffff;
+    --border: #e8e8e8;
+    --text: #111111;
+    --muted: #666666;
+    --accent: #0a66c2;
+    --accent-light: #e8f0fb;
+    --radius: 12px;
+    --max: 860px;
+  }
+  html { scroll-behavior: smooth; }
+  body { font-family: 'Segoe UI', system-ui, -apple-system, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
 
-<head profile="http://www.w3.org/2005/10/profile">
-    <link rel="icon" type="image/png" href="./img/graduation-cap.webp">
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/jpswalsh/academicons/css/academicons.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>nykabhishek</title>
-    <link rel="stylesheet" href="./stylesheet.css">
+  /* NAV */
+  nav {
+    position: fixed; top: 0; left: 0; right: 0; z-index: 100;
+    background: rgba(250,250,250,0.85); backdrop-filter: blur(12px);
+    border-bottom: 1px solid var(--border);
+    display: flex; justify-content: space-between; align-items: center;
+    padding: 0 2rem; height: 60px;
+  }
+  .nav-logo { font-weight: 700; font-size: 1rem; letter-spacing: -0.5px; color: var(--text); text-decoration: none; }
+  .nav-links { display: flex; gap: 2rem; list-style: none; }
+  .nav-links a { text-decoration: none; color: var(--muted); font-size: 0.875rem; font-weight: 500; transition: color 0.2s; }
+  .nav-links a:hover { color: var(--text); }
+
+  /* SECTIONS */
+  section { padding: 6rem 2rem; max-width: var(--max); margin: 0 auto; }
+  section:first-of-type { padding-top: 8rem; }
+
+  /* HERO */
+  #about { display: grid; grid-template-columns: 1fr auto; gap: 3rem; align-items: center; min-height: calc(100vh - 60px); padding-top: 7rem; padding-bottom: 4rem; }
+  .hero-text h1 { font-size: clamp(2rem, 5vw, 3rem); font-weight: 800; letter-spacing: -1.5px; line-height: 1.1; margin-bottom: 0.5rem; }
+  .hero-title { font-size: 1rem; color: var(--accent); font-weight: 600; margin-bottom: 1.5rem; }
+  .hero-bio { color: var(--muted); font-size: 1rem; max-width: 520px; line-height: 1.75; margin-bottom: 2rem; }
+  .hero-actions { display: flex; gap: 1rem; flex-wrap: wrap; }
+  .btn { display: inline-flex; align-items: center; gap: 0.4rem; padding: 0.6rem 1.2rem; border-radius: 8px; font-size: 0.875rem; font-weight: 600; text-decoration: none; transition: all 0.2s; cursor: pointer; border: none; }
+  .btn-primary { background: var(--text); color: #fff; }
+  .btn-primary:hover { background: #333; }
+  .btn-outline { background: transparent; color: var(--text); border: 1.5px solid var(--border); }
+  .btn-outline:hover { border-color: var(--text); }
+  .hero-avatar { width: 180px; height: 180px; border-radius: 50%; object-fit: cover; border: 3px solid var(--border); flex-shrink: 0; }
+
+  /* DIVIDER */
+  .divider { border: none; border-top: 1px solid var(--border); margin: 0 2rem; }
+
+  /* SECTION HEADER */
+  .section-label { font-size: 0.75rem; font-weight: 700; letter-spacing: 0.12em; text-transform: uppercase; color: var(--accent); margin-bottom: 0.5rem; }
+  .section-title { font-size: 1.75rem; font-weight: 800; letter-spacing: -0.5px; margin-bottom: 2.5rem; }
+
+  /* SKILLS */
+  .skills-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(220px, 1fr)); gap: 1rem; }
+  .skill-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; }
+  .skill-card h4 { font-size: 0.8rem; font-weight: 700; text-transform: uppercase; letter-spacing: 0.08em; color: var(--muted); margin-bottom: 0.75rem; }
+  .skill-tags { display: flex; flex-wrap: wrap; gap: 0.4rem; }
+  .tag { background: var(--accent-light); color: var(--accent); font-size: 0.78rem; font-weight: 600; padding: 0.25rem 0.6rem; border-radius: 6px; }
+
+  /* TIMELINE */
+  .timeline { display: flex; flex-direction: column; gap: 0; }
+  .timeline-item { display: grid; grid-template-columns: 140px 1fr; gap: 2rem; padding: 2rem 0; border-bottom: 1px solid var(--border); }
+  .timeline-item:last-child { border-bottom: none; }
+  .timeline-date { font-size: 0.8rem; color: var(--muted); font-weight: 500; padding-top: 0.15rem; line-height: 1.5; }
+  .timeline-body h3 { font-size: 1rem; font-weight: 700; margin-bottom: 0.1rem; }
+  .timeline-body .org { font-size: 0.875rem; color: var(--accent); font-weight: 600; margin-bottom: 0.1rem; }
+  .timeline-body .loc { font-size: 0.8rem; color: var(--muted); margin-bottom: 0.75rem; }
+  .timeline-body ul { padding-left: 1.1rem; }
+  .timeline-body ul li { font-size: 0.875rem; color: var(--muted); margin-bottom: 0.3rem; line-height: 1.55; }
+
+  /* EDUCATION */
+  .edu-grid { display: flex; flex-direction: column; gap: 1rem; }
+  .edu-card { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1.25rem 1.5rem; display: flex; justify-content: space-between; align-items: flex-start; gap: 1rem; }
+  .edu-card h3 { font-size: 0.95rem; font-weight: 700; margin-bottom: 0.2rem; }
+  .edu-card .school { font-size: 0.875rem; color: var(--muted); }
+  .edu-year { font-size: 0.8rem; font-weight: 700; color: var(--accent); white-space: nowrap; background: var(--accent-light); padding: 0.2rem 0.6rem; border-radius: 6px; }
+
+  /* CERTS */
+  .cert-list { display: flex; flex-direction: column; gap: 0.75rem; }
+  .cert-item { background: var(--surface); border: 1px solid var(--border); border-radius: var(--radius); padding: 1rem 1.5rem; display: flex; justify-content: space-between; align-items: center; gap: 1rem; }
+  .cert-item h4 { font-size: 0.9rem; font-weight: 700; }
+  .cert-item .issuer { font-size: 0.8rem; color: var(--muted); margin-top: 0.1rem; }
+  .cert-link { font-size: 0.8rem; font-weight: 600; color: var(--accent); text-decoration: none; white-space: nowrap; }
+  .cert-link:hover { text-decoration: underline; }
+
+  /* FOOTER */
+  footer { text-align: center; padding: 3rem 2rem; color: var(--muted); font-size: 0.8rem; border-top: 1px solid var(--border); }
+  footer a { color: var(--muted); text-decoration: none; }
+  footer a:hover { color: var(--text); }
+
+  @media (max-width: 640px) {
+    #about { grid-template-columns: 1fr; text-align: center; }
+    .hero-avatar { width: 120px; height: 120px; margin: 0 auto; }
+    .hero-actions { justify-content: center; }
+    .hero-bio { margin: 0 auto 2rem; }
+    .timeline-item { grid-template-columns: 1fr; gap: 0.25rem; }
+    .timeline-date { padding-top: 0; }
+    nav { padding: 0 1rem; }
+    .nav-links { gap: 1rem; }
+  }
+</style>
 </head>
-
 <body>
 
-    <div class="sidenav">
-        <div class="navblock">
-            <div class="navblock_text">
-                <a style="color:#0000ff" href="./index.html">About</a>
-                <a href="./resume.html">Resume</a>
-                <a href="./research.html">Research</a>
-                <a href="./projects.html">Projects</a>
-                <a href="./photography.html">Photography</a>
-                <a href="./blog.html">Blog</a>
-            </div>
-        </div>
-        <div class="footer">
-            <p>&copy;
-                <script>document.write(new Date().getFullYear());</script> nykabhishek
-            </p>
-        </div>
+<nav>
+  <a class="nav-logo" href="#about">AN</a>
+  <ul class="nav-links">
+    <li><a href="#about">About</a></li>
+    <li><a href="#skills">Skills</a></li>
+    <li><a href="#experience">Experience</a></li>
+    <li><a href="#education">Education</a></li>
+    <li><a href="#certifications">Certifications</a></li>
+  </ul>
+</nav>
+
+<!-- HERO -->
+<section id="about">
+  <div class="hero-text">
+    <p class="section-label">Portfolio</p>
+    <h1>Abhishek Nayak, PhD</h1>
+    <p class="hero-title">Senior Software Engineer · MathWorks</p>
+    <p class="hero-bio">Ph.D. graduate from Texas A&M University specializing in advanced algorithms and machine learning for autonomous systems — self-driving vehicles, indoor robots, and aerial vehicles. Improving motion planning, perception, decision-making, and navigation.</p>
+    <div class="hero-actions">
+      <a class="btn btn-primary" href="mailto:nykabhishek@gmail.com">✉ Email me</a>
+      <a class="btn btn-outline" href="https://nykabhishek.github.io" target="_blank">↗ Original site</a>
+    </div>
+  </div>
+  <img class="hero-avatar" src="https://nykabhishek.github.io/img/abhishek_nayak.jpg" alt="Abhishek Nayak"/>
+</section>
+
+<hr class="divider"/>
+
+<!-- SKILLS -->
+<section id="skills">
+  <p class="section-label">Expertise</p>
+  <h2 class="section-title">Technical Skills</h2>
+  <div class="skills-grid">
+    <div class="skill-card">
+      <h4>Programming</h4>
+      <div class="skill-tags">
+        <span class="tag">C++</span><span class="tag">Python</span><span class="tag">MATLAB</span><span class="tag">ROS</span><span class="tag">Git</span><span class="tag">Perforce</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h4>ML / Libraries</h4>
+      <div class="skill-tags">
+        <span class="tag">OpenCV</span><span class="tag">scikit-learn</span><span class="tag">XGBoost</span><span class="tag">NumPy</span><span class="tag">NetworkX</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h4>Frameworks</h4>
+      <div class="skill-tags">
+        <span class="tag">Keras</span><span class="tag">PyTorch</span><span class="tag">TensorFlow</span><span class="tag">Gazebo</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h4>Design & CAD</h4>
+      <div class="skill-tags">
+        <span class="tag">CREO</span><span class="tag">SolidWorks</span><span class="tag">AutoCAD</span><span class="tag">CATIA v5</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h4>Solvers & Tools</h4>
+      <div class="skill-tags">
+        <span class="tag">CPLEX</span><span class="tag">Gurobi</span><span class="tag">Simulink</span><span class="tag">Linux</span>
+      </div>
+    </div>
+    <div class="skill-card">
+      <h4>Other</h4>
+      <div class="skill-tags">
+        <span class="tag">LaTeX</span><span class="tag">AVL Cruise</span><span class="tag">Photoshop</span>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- EXPERIENCE -->
+<section id="experience">
+  <p class="section-label">Career</p>
+  <h2 class="section-title">Experience</h2>
+  <div class="timeline">
+
+    <div class="timeline-item">
+      <div class="timeline-date">2023 – Present</div>
+      <div class="timeline-body">
+        <h3>Senior Software Engineer</h3>
+        <p class="org">The MathWorks Inc.</p>
+        <p class="loc">Natick, Massachusetts</p>
+      </div>
     </div>
 
-    <div class="main">
-        <div>
-            <img src="./img/abhishek_nayak.jpg" alt="Abhishek Nayak" class="about_photo">
-        </div>
-
-        <div class="about_text">
-            <h1>Abhishek Nayak, PhD</h1>
-            <a href="https://www.mathworks.com/">Senior Software Engineer, Mathworks</a>
-
-            <p>Hi, I'm Abhishek, a Ph.D. graduate from Texas A&M University. My research has focused on developing
-                advanced algorithms and machine learning models for self-driving vehicles, indoor robots, and aerial
-                vehicles improving their motion planning, perception, decision-making, and navigation capabilities.
-                Currently I'm working as a Senior Software Engineer at MathWorks.
-            </p>
-
-            <div class="about_links">
-                <a class="about_links" target="blank" href="https://www.linkedin.com/in/nykabhishek/">
-                    <i class="fab fa-linkedin fa-2x">
-                    </i>
-                </a>
-                <a class="about_links" target="blank" href="https://github.com/nykabhishek">
-                    <i class="fab fa-github fa-2x">
-                    </i>
-                </a>
-                <a class="about_links" target="blank"
-                    href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl">
-                    <i class="ai ai-google-scholar ai-2x">
-                    </i>
-                </a>
-            </div>
-        </div>
+    <div class="timeline-item">
+      <div class="timeline-date">2022</div>
+      <div class="timeline-body">
+        <h3>Autonomous Systems Engineer</h3>
+        <p class="org">Joulea Inc.</p>
+        <p class="loc">Atlanta, Georgia</p>
+        <ul>
+          <li>Led development of a fully autonomous UAS for infrastructure inspections in GPS-denied urban environments.</li>
+        </ul>
+      </div>
     </div>
 
+    <div class="timeline-item">
+      <div class="timeline-date">2018 – 2021</div>
+      <div class="timeline-body">
+        <h3>Graduate Research Assistant</h3>
+        <p class="org">Texas A&M Transportation Institute (TTI)</p>
+        <p class="loc">College Station, Texas</p>
+        <ul>
+          <li>Reference Machine Vision for ADAS functions.</li>
+          <li>Response of Autonomous Vehicles to Emergency Response Vehicles (RAVEV).</li>
+        </ul>
+      </div>
+    </div>
 
+    <div class="timeline-item">
+      <div class="timeline-date">2017 – 2022</div>
+      <div class="timeline-body">
+        <h3>Graduate Research Assistant</h3>
+        <p class="org">Texas A&M Engineering Experiment Station</p>
+        <p class="loc">College Station, Texas</p>
+        <ul>
+          <li>Heuristics and RL models for motion-constrained multi-agent vehicle routing.</li>
+          <li>Infrastructure Enabled Autonomy (IEA) and Multi-Agent SLAM.</li>
+          <li>SLAM in crowded urban environments using the UrbanNav Dataset.</li>
+          <li>Low-cost drive-by-wire system for Ford Focus.</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="timeline-item">
+      <div class="timeline-date">2014 – 2017</div>
+      <div class="timeline-body">
+        <h3>Member R&D</h3>
+        <p class="org">TVS Motor Company</p>
+        <p class="loc">Hosur, TN, India</p>
+        <ul>
+          <li>Developed MATLAB powertrain models and performed HIL testing & verification.</li>
+          <li>Designed powertrain components using CAD; performance testing on TVS & BMW engines.</li>
+          <li>Cross-functional collaboration on new product development and sensor procurement.</li>
+        </ul>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- EDUCATION -->
+<section id="education">
+  <p class="section-label">Academic Background</p>
+  <h2 class="section-title">Education</h2>
+  <div class="edu-grid">
+    <div class="edu-card">
+      <div>
+        <h3>PhD · Mechanical Engineering</h3>
+        <p class="school">Texas A&M University, College Station, TX</p>
+      </div>
+      <span class="edu-year">2022</span>
+    </div>
+    <div class="edu-card">
+      <div>
+        <h3>M.S. · Mechanical Engineering</h3>
+        <p class="school">Texas A&M University, College Station, TX</p>
+      </div>
+      <span class="edu-year">2019</span>
+    </div>
+    <div class="edu-card">
+      <div>
+        <h3>B.Tech · Mechanical Engineering</h3>
+        <p class="school">National Institute of Technology Karnataka (NITK), India</p>
+      </div>
+      <span class="edu-year">2014</span>
+    </div>
+  </div>
+</section>
+
+<hr class="divider"/>
+
+<!-- CERTIFICATIONS -->
+<section id="certifications">
+  <p class="section-label">Credentials</p>
+  <h2 class="section-title">Certifications</h2>
+  <div class="cert-list">
+    <div class="cert-item">
+      <div>
+        <h4>Self-Driving Cars Specialization</h4>
+        <p class="issuer">Coursera · Apr 2022</p>
+      </div>
+      <a class="cert-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/YKQ52BH7J993" target="_blank">View Certificate ↗</a>
+    </div>
+    <div class="cert-item">
+      <div>
+        <h4>Deep Learning Specialization</h4>
+        <p class="issuer">Coursera · Sep 2020</p>
+      </div>
+      <a class="cert-link" href="https://www.coursera.org/account/accomplishments/specialization/certificate/PZRPRTSRHHWW" target="_blank">View Certificate ↗</a>
+    </div>
+    <div class="cert-item">
+      <div>
+        <h4>CREO Parametric</h4>
+        <p class="issuer">CADD Centre · Aug 2015</p>
+      </div>
+      <a class="cert-link" href="https://registry.caddcentre.com/old/caddVerification.php?ddac=NDg3NTIw" target="_blank">View Certificate ↗</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>© 2024 Abhishek Nayak · <a href="mailto:nykabhishek@gmail.com">nykabhishek@gmail.com</a></p>
+</footer>
 
 </body>
-
 </html>
