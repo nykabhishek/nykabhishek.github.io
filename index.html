@@ -4,18 +4,25 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="canonical" href="https://nykabhishek.github.io/" />
+  <meta name="theme-color" content="#ffffff" media="(prefers-color-scheme: light)" />
+  <meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)" />
   <title>Abhishek Nayak, PhD</title>
-  <meta name="description" content="Abhishek Nayak, Ph.D. — Senior Software Engineer at MathWorks." />
-  <meta property="og:title" content="Abhishek Nayak | Portfolio" />
-  <meta property="og:description" content="Senior Software Engineer at MathWorks. PhD researcher in autonomous vehicles, robotics, and motion planning." />
-  <meta property="og:image" content="https://nykabhishek.github.io/img/abhishek_nayak.webp" />
+  <meta name="description" content="Abhishek Nayak, Ph.D. — Senior Software Engineer in Test at MathWorks, working on sensor simulation for autonomous systems." />
+  <meta property="og:title" content="Abhishek Nayak, PhD" />
+  <meta property="og:description" content="Senior Software Engineer in Test at MathWorks (sensor simulation for autonomous systems). PhD researcher in autonomous vehicles, robotics, and motion planning." />
+  <meta property="og:image" content="https://nykabhishek.github.io/img/avatar-og.jpg" />
+  <meta property="og:image:width" content="800" />
+  <meta property="og:image:height" content="800" />
+  <meta property="og:image:alt" content="Portrait of Abhishek Nayak" />
   <meta property="og:url" content="https://nykabhishek.github.io" />
   <meta property="og:type" content="website" />
-  <meta name="twitter:card" content="summary_large_image" />
-  <meta name="twitter:title" content="Abhishek Nayak | Portfolio" />
-  <meta name="twitter:description" content="Senior Software Engineer at MathWorks. PhD researcher in autonomous vehicles, robotics, and motion planning." />
-  <meta name="twitter:image" content="https://nykabhishek.github.io/img/abhishek_nayak.webp" />
-  <link rel="icon" href="./img/abhishek_nayak.webp" type="image/webp" />
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Abhishek Nayak, PhD" />
+  <meta name="twitter:description" content="Senior Software Engineer in Test at MathWorks (sensor simulation for autonomous systems). PhD researcher in autonomous vehicles, robotics, and motion planning." />
+  <meta name="twitter:image" content="https://nykabhishek.github.io/img/avatar-og.jpg" />
+  <link rel="icon" href="./img/favicon-32.png" type="image/png" sizes="32x32" />
+  <link rel="apple-touch-icon" href="./img/apple-touch-icon.png" />
   <style>
     *,
     *::before,
@@ -26,171 +33,251 @@
     }
 
     :root {
-      --bg: #fafafa;
+      --bg: #ffffff;
       --surface: #ffffff;
-      --border: #e8e8e8;
-      --text: #111111;
-      --muted: #666666;
-      --accent: #0a66c2;
-      --accent-light: #e8f0fb;
-      --radius: 12px;
-      --max: 860px;
+      --border: #ececec;
+      --text: #1a1a1a;
+      --muted: #6b6b6b;
+      --accent: #2557d6;
+      --accent-light: #eef3fd;
+      --radius: 8px;
+      --max: 760px;
+      --nav-h: 64px;
     }
 
     html {
       scroll-behavior: smooth;
     }
 
+    @media (prefers-reduced-motion: reduce) {
+      html {
+        scroll-behavior: auto;
+      }
+
+      *,
+      *::before,
+      *::after {
+        transition-duration: 0.01ms !important;
+        animation-duration: 0.01ms !important;
+      }
+    }
+
     body {
-      font-family: 'Segoe UI', system-ui, -apple-system, sans-serif;
+      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
       background: var(--bg);
       color: var(--text);
-      line-height: 1.6;
+      line-height: 1.65;
+      -webkit-font-smoothing: antialiased;
+      text-rendering: optimizeLegibility;
+    }
+
+    h1,
+    h2,
+    h3 {
+      text-wrap: balance;
+    }
+
+    p,
+    li {
+      text-wrap: pretty;
+    }
+
+    ::selection {
+      background: var(--accent-light);
+      color: var(--text);
+    }
+
+    a {
+      color: var(--accent);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+      text-underline-offset: 3px;
     }
 
     /* NAV */
     nav {
-      position: fixed;
+      position: sticky;
       top: 0;
-      left: 0;
-      right: 0;
       z-index: 100;
-      background: rgba(250, 250, 250, 0.88);
+      background: color-mix(in srgb, var(--bg) 88%, transparent);
       backdrop-filter: blur(12px);
       border-bottom: 1px solid var(--border);
+    }
+
+    .nav-inner {
+      max-width: var(--max);
+      height: var(--nav-h);
+      margin: 0 auto;
+      padding: 0 1.5rem;
       display: flex;
       justify-content: space-between;
       align-items: center;
-      padding: 0 2rem;
-      height: 60px;
     }
 
     .nav-logo {
-      font-weight: 700;
+      font-weight: 600;
       font-size: 1rem;
-      letter-spacing: -0.5px;
       color: var(--text);
+      white-space: nowrap;
+    }
+
+    .nav-logo .short {
+      display: none;
+    }
+
+    .nav-logo:hover {
       text-decoration: none;
     }
 
     .nav-links {
       display: flex;
-      gap: 1.5rem;
+      gap: 1.75rem;
       list-style: none;
     }
 
     .nav-links a {
-      text-decoration: none;
       color: var(--muted);
-      font-size: 0.8rem;
-      font-weight: 500;
-      transition: color 0.2s;
+      font-size: 0.9rem;
+      padding: 0.25rem 0;
+      border-bottom: 2px solid transparent;
+      transition: color 0.15s, border-color 0.15s;
     }
 
     .nav-links a:hover {
       color: var(--text);
+      text-decoration: none;
+    }
+
+    .nav-links a.active {
+      color: var(--text);
+      border-bottom-color: var(--accent);
+    }
+
+    .nav-right {
+      display: flex;
+      align-items: center;
+      gap: 1.75rem;
+    }
+
+    .theme-toggle {
+      background: none;
+      border: 1px solid var(--border);
+      border-radius: 50%;
+      width: 2rem;
+      height: 2rem;
+      padding: 0;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      color: var(--muted);
+      font-size: 1rem;
+      line-height: 1;
+      cursor: pointer;
+      transition: color 0.15s, border-color 0.15s;
+    }
+
+    .theme-toggle:hover {
+      color: var(--text);
+      border-color: var(--muted);
     }
 
     /* LAYOUT */
-    section {
-      padding: 5rem 2rem;
+    main {
       max-width: var(--max);
       margin: 0 auto;
+      padding: 0 1.5rem;
     }
 
-    .divider {
-      border: none;
-      border-top: 1px solid var(--border);
-      margin: 0 2rem;
-    }
-
-    .section-label {
-      font-size: 0.72rem;
-      font-weight: 700;
-      letter-spacing: 0.12em;
-      text-transform: uppercase;
-      color: var(--accent);
-      margin-bottom: 0.4rem;
+    section {
+      padding: 3.5rem 0 1rem;
+      scroll-margin-top: var(--nav-h);
     }
 
     .section-title {
-      font-size: 1.75rem;
-      font-weight: 800;
-      letter-spacing: -0.5px;
-      margin-bottom: 2.5rem;
-    }
-
-    /* HERO */
-    #about {
-      display: grid;
-      grid-template-columns: 1fr auto;
-      gap: 3rem;
-      align-items: center;
-      min-height: calc(100vh - 60px);
-      padding-top: 7rem;
-      padding-bottom: 4rem;
-    }
-
-    .hero-text h1 {
-      font-size: clamp(2rem, 5vw, 3rem);
-      font-weight: 800;
-      letter-spacing: -1.5px;
-      line-height: 1.1;
+      font-size: 1.6rem;
+      font-weight: 600;
+      letter-spacing: -0.02em;
       margin-bottom: 0.5rem;
     }
 
-    .hero-role {
-      font-size: 1rem;
-      color: var(--accent);
+    .section-intro {
+      color: var(--muted);
+      font-size: 0.95rem;
+      margin-bottom: 2rem;
+      max-width: 620px;
+    }
+
+    .sub-title {
+      font-size: 1.1rem;
       font-weight: 600;
+      margin: 2.75rem 0 0.25rem;
+      padding-bottom: 0.5rem;
+      border-bottom: 1px solid var(--border);
+      scroll-margin-top: var(--nav-h);
+    }
+
+    /* ABOUT */
+    #about {
+      padding-top: 4rem;
+      display: grid;
+      grid-template-columns: 1fr 180px;
+      gap: 3rem;
+      align-items: start;
+    }
+
+    #about h1 {
+      font-size: clamp(2.2rem, 6vw, 3rem);
+      font-weight: 300;
+      letter-spacing: -0.03em;
+      line-height: 1.1;
+      margin-bottom: 0.6rem;
+    }
+
+    #about h1 strong {
+      font-weight: 700;
+    }
+
+    .hero-role {
+      color: var(--muted);
+      font-size: 1rem;
       margin-bottom: 1.5rem;
+      padding-left: 0.75rem;
+      border-left: 2px solid var(--accent);
+      line-height: 1.3;
     }
 
     .hero-bio {
-      color: var(--muted);
-      font-size: 1rem;
-      max-width: 520px;
+      font-size: 0.97rem;
       line-height: 1.75;
-      margin-bottom: 2rem;
+      margin-bottom: 1.5rem;
     }
 
-    .hero-actions {
+    .hero-bio:not(:last-of-type) {
+      margin-bottom: 0.9rem;
+    }
+
+    .hero-links {
       display: flex;
-      gap: 1rem;
       flex-wrap: wrap;
+      gap: 0.5rem;
+      font-size: 0.88rem;
+      font-weight: 500;
     }
 
-    .btn {
-      display: inline-flex;
-      align-items: center;
-      gap: 0.4rem;
-      padding: 0.6rem 1.2rem;
-      border-radius: 8px;
-      font-size: 0.875rem;
-      font-weight: 600;
+    .hero-links a {
+      border: 1px solid var(--border);
+      border-radius: 999px;
+      padding: 0.25rem 0.9rem;
+      transition: border-color 0.15s, background 0.15s;
+    }
+
+    .hero-links a:hover {
+      border-color: var(--accent);
+      background: var(--accent-light);
       text-decoration: none;
-      transition: all 0.2s;
-      cursor: pointer;
-      border: none;
-    }
-
-    .btn-primary {
-      background: var(--text);
-      color: #fff;
-    }
-
-    .btn-primary:hover {
-      background: #333;
-    }
-
-    .btn-outline {
-      background: transparent;
-      color: var(--text);
-      border: 1.5px solid var(--border);
-    }
-
-    .btn-outline:hover {
-      border-color: var(--text);
     }
 
     .hero-avatar {
@@ -198,276 +285,168 @@
       height: 180px;
       border-radius: 50%;
       object-fit: cover;
-      border: 3px solid var(--border);
-      flex-shrink: 0;
-    }
-
-    /* SKILLS */
-    .skills-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
-      gap: 1rem;
-    }
-
-    .skill-card {
-      background: var(--surface);
       border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
     }
 
-    .skill-card h4 {
-      font-size: 0.75rem;
-      font-weight: 700;
-      text-transform: uppercase;
-      letter-spacing: 0.08em;
-      color: var(--muted);
-      margin-bottom: 0.75rem;
-    }
-
-    .skill-tags {
-      display: flex;
-      flex-wrap: wrap;
-      gap: 0.4rem;
-    }
-
-    .tag {
-      background: var(--accent-light);
-      color: var(--accent);
-      font-size: 0.78rem;
-      font-weight: 600;
-      padding: 0.25rem 0.6rem;
-      border-radius: 6px;
-    }
-
-    /* TIMELINE */
-    .timeline {
-      display: flex;
-      flex-direction: column;
-    }
-
-    .timeline-item {
+    /* SHARED ROW: meta column + body */
+    .row {
       display: grid;
-      grid-template-columns: 140px 1fr;
-      gap: 2rem;
-      padding: 2rem 0;
+      grid-template-columns: 110px 1fr;
+      gap: 1.5rem;
+      padding: 1.25rem 0;
       border-bottom: 1px solid var(--border);
     }
 
-    .timeline-item:last-child {
+    .row:last-child {
       border-bottom: none;
     }
 
-    .timeline-date {
-      font-size: 0.8rem;
+    .row-meta {
+      font-size: 0.82rem;
       color: var(--muted);
-      font-weight: 500;
-      padding-top: 0.15rem;
+      padding-top: 0.2rem;
     }
 
-    .timeline-body h3 {
-      font-size: 1rem;
-      font-weight: 700;
-      margin-bottom: 0.1rem;
-    }
-
-    .timeline-body .org {
-      font-size: 0.875rem;
-      color: var(--accent);
+    .row-body h4 {
+      font-size: 0.97rem;
       font-weight: 600;
-      margin-bottom: 0.1rem;
+      line-height: 1.4;
     }
 
-    .timeline-body .loc {
-      font-size: 0.8rem;
+    .row-body .org {
+      font-size: 0.9rem;
+      color: var(--text);
+    }
+
+    .row-body .loc {
+      font-size: 0.82rem;
       color: var(--muted);
-      margin-bottom: 0.75rem;
     }
 
-    .timeline-body ul {
+    .row-body ul {
+      margin-top: 0.6rem;
       padding-left: 1.1rem;
     }
 
-    .timeline-body ul li {
-      font-size: 0.875rem;
+    .row-body li {
+      font-size: 0.88rem;
       color: var(--muted);
-      margin-bottom: 0.3rem;
+      margin-bottom: 0.25rem;
       line-height: 1.55;
     }
 
-    /* EDUCATION */
-    .edu-grid {
-      display: flex;
-      flex-direction: column;
-      gap: 1rem;
-    }
-
-    .edu-card {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1.25rem 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: flex-start;
-      gap: 1rem;
-    }
-
-    .edu-card h3 {
-      font-size: 0.95rem;
-      font-weight: 700;
-      margin-bottom: 0.2rem;
-    }
-
-    .edu-card .school {
-      font-size: 0.875rem;
-      color: var(--muted);
-    }
-
-    .edu-year {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--accent);
-      white-space: nowrap;
-      background: var(--accent-light);
-      padding: 0.2rem 0.6rem;
-      border-radius: 6px;
-    }
-
-    /* RESEARCH */
-    .research-intro {
-      color: var(--muted);
-      font-size: 0.95rem;
-      line-height: 1.75;
-      margin-bottom: 2.5rem;
-      max-width: 680px;
-    }
-
-    .pub-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0;
-      margin-bottom: 3rem;
-    }
-
-    .pub-item {
-      display: grid;
-      grid-template-columns: 32px 1fr;
-      gap: 1rem;
-      padding: 1.25rem 0;
-      border-bottom: 1px solid var(--border);
-      align-items: start;
-    }
-
-    .pub-item:last-child {
-      border-bottom: none;
-    }
-
-    .pub-num {
-      font-size: 0.8rem;
-      font-weight: 700;
-      color: var(--muted);
-      padding-top: 0.1rem;
-    }
-
-    .pub-body p {
-      font-size: 0.88rem;
-      color: var(--text);
-      line-height: 1.6;
-      margin-bottom: 0.4rem;
-    }
-
-    .pub-body .pub-venue {
-      font-size: 0.78rem;
-      color: var(--muted);
-      margin-bottom: 0.5rem;
-    }
-
-    .pub-link {
+    .row-body .row-link {
       display: inline-block;
-      font-size: 0.75rem;
-      font-weight: 700;
-      color: var(--accent);
-      text-decoration: none;
-      border: 1px solid var(--accent-light);
-      background: var(--accent-light);
-      padding: 0.15rem 0.5rem;
-      border-radius: 5px;
-      margin-right: 0.35rem;
+      margin-top: 0.3rem;
+      font-size: 0.82rem;
     }
 
-    .pub-link:hover {
-      background: var(--accent);
-      color: #fff;
+    /* PUBLICATIONS */
+    .pub-year {
+      font-size: 1.05rem;
+      font-weight: 600;
+      color: var(--muted);
+      padding-top: 0.2rem;
+      font-variant-numeric: tabular-nums;
     }
 
-    .talks-list {
+    .row-meta {
+      font-variant-numeric: tabular-nums;
+    }
+
+    .pub-entries {
       display: flex;
       flex-direction: column;
-      gap: 0.75rem;
+      gap: 1.5rem;
     }
 
-    .talk-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1rem 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
+    .pub-title {
+      font-size: 0.97rem;
+      font-weight: 600;
+      line-height: 1.4;
     }
 
-    .talk-item p {
-      font-size: 0.875rem;
+    .pub-authors {
+      font-size: 0.85rem;
+      color: var(--muted);
+      margin-top: 0.15rem;
+    }
+
+    .pub-authors .me {
+      color: var(--text);
       font-weight: 600;
     }
 
-    .talk-item span {
-      font-size: 0.78rem;
+    .pub-venue {
+      font-size: 0.85rem;
       color: var(--muted);
-      white-space: nowrap;
+      font-style: italic;
+    }
+
+    .badge {
+      display: inline-block;
+      margin-top: 0.5rem;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
+      color: var(--accent);
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 0.1rem 0.5rem;
+      margin-right: 0.4rem;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    .badge:hover {
+      background: var(--accent);
+      color: var(--bg);
+      text-decoration: none;
     }
 
     /* PROJECTS */
     .projects-grid {
       display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(360px, 1fr));
-      gap: 1.25rem;
+      grid-template-columns: repeat(auto-fill, minmax(320px, 1fr));
+      gap: 1.5rem;
+      margin-top: 1.5rem;
     }
 
     .project-card {
-      background: var(--surface);
       border: 1px solid var(--border);
       border-radius: var(--radius);
       overflow: hidden;
       display: flex;
       flex-direction: column;
-      transition: box-shadow 0.2s;
+      transition: border-color 0.15s, transform 0.2s, box-shadow 0.2s;
     }
 
     .project-card:hover {
-      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+      border-color: var(--muted);
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
     }
 
     .project-img {
       width: 100%;
-      height: 180px;
+      height: 170px;
       object-fit: cover;
-      background: #f0f0f0;
+      background: var(--border);
+      border-bottom: 1px solid var(--border);
     }
 
     .project-body {
-      padding: 1.25rem 1.5rem;
+      padding: 1rem 1.25rem 1.25rem;
       flex: 1;
       display: flex;
       flex-direction: column;
     }
 
     .project-body h3 {
-      font-size: 0.95rem;
-      font-weight: 700;
-      margin-bottom: 0.5rem;
+      font-size: 0.97rem;
+      font-weight: 600;
+      line-height: 1.4;
+      margin-bottom: 0.4rem;
     }
 
     .project-body p {
@@ -475,70 +454,55 @@
       color: var(--muted);
       line-height: 1.55;
       flex: 1;
-      margin-bottom: 1rem;
+      margin-bottom: 0.75rem;
     }
 
     .project-links {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.4rem;
       flex-wrap: wrap;
     }
 
+    /* modal links reuse this class from the script */
     .project-link {
-      font-size: 0.75rem;
-      font-weight: 700;
+      display: inline-block;
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.06em;
+      text-transform: uppercase;
       color: var(--accent);
-      text-decoration: none;
-      border: 1px solid var(--accent-light);
-      background: var(--accent-light);
-      padding: 0.2rem 0.6rem;
-      border-radius: 5px;
+      border: 1px solid var(--accent);
+      border-radius: 4px;
+      padding: 0.1rem 0.5rem;
+      transition: background 0.15s, color 0.15s;
+    }
+
+    button.project-link {
+      background: none;
+      font-family: inherit;
+      line-height: inherit;
+      cursor: pointer;
     }
 
     .project-link:hover {
       background: var(--accent);
-      color: #fff;
-    }
-
-    /* CERTS */
-    .cert-list {
-      display: flex;
-      flex-direction: column;
-      gap: 0.75rem;
-    }
-
-    .cert-item {
-      background: var(--surface);
-      border: 1px solid var(--border);
-      border-radius: var(--radius);
-      padding: 1rem 1.5rem;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      gap: 1rem;
-    }
-
-    .cert-item h4 {
-      font-size: 0.9rem;
-      font-weight: 700;
-    }
-
-    .cert-item .issuer {
-      font-size: 0.8rem;
-      color: var(--muted);
-      margin-top: 0.1rem;
-    }
-
-    .cert-link {
-      font-size: 0.8rem;
-      font-weight: 600;
-      color: var(--accent);
+      color: var(--bg);
       text-decoration: none;
-      white-space: nowrap;
     }
 
-    .cert-link:hover {
-      text-decoration: underline;
+    /* SKILLS */
+    .skill-row {
+      display: grid;
+      grid-template-columns: 110px 1fr;
+      gap: 1.5rem;
+      padding: 0.55rem 0;
+      font-size: 0.9rem;
+    }
+
+    .skill-row dt {
+      color: var(--muted);
+      font-size: 0.82rem;
+      padding-top: 0.1rem;
     }
 
     /* MODAL */
@@ -546,7 +510,7 @@
       display: none;
       position: fixed;
       inset: 0;
-      background: rgba(0, 0, 0, 0.4);
+      background: rgba(0, 0, 0, 0.45);
       z-index: 200;
       align-items: center;
       justify-content: center;
@@ -555,30 +519,45 @@
 
     .modal-overlay.open {
       display: flex;
+      backdrop-filter: blur(3px);
+      animation: fade-in 0.15s ease-out;
+    }
+
+    .modal-overlay.open .modal {
+      animation: pop-in 0.2s ease-out;
+    }
+
+    @keyframes fade-in {
+      from { opacity: 0; }
+    }
+
+    @keyframes pop-in {
+      from { opacity: 0; transform: translateY(8px) scale(0.98); }
     }
 
     .modal {
       background: var(--surface);
-      border-radius: 16px;
+      border: 1px solid var(--border);
+      border-radius: 12px;
       max-width: 680px;
       width: 100%;
       max-height: 88vh;
       overflow-y: auto;
       padding: 2rem;
       position: relative;
-      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.15);
+      box-shadow: 0 20px 60px rgba(0, 0, 0, 0.18);
     }
 
     .modal-close {
       position: absolute;
-      top: 1.25rem;
-      right: 1.25rem;
+      top: 1rem;
+      right: 1rem;
       background: var(--bg);
       border: 1px solid var(--border);
-      border-radius: 8px;
+      border-radius: 6px;
       width: 32px;
       height: 32px;
-      font-size: 1rem;
+      font-size: 0.9rem;
       cursor: pointer;
       display: flex;
       align-items: center;
@@ -587,31 +566,27 @@
     }
 
     .modal-close:hover {
-      background: var(--border);
+      color: var(--text);
+      border-color: var(--muted);
     }
 
     .modal img {
       width: 100%;
-      border-radius: 10px;
+      border-radius: var(--radius);
       margin-bottom: 1.5rem;
       object-fit: cover;
       max-height: 220px;
     }
 
     .modal h2 {
-      font-size: 1.2rem;
-      font-weight: 800;
+      font-size: 1.25rem;
+      font-weight: 600;
       margin-bottom: 0.25rem;
-    }
-
-    .modal .modal-date {
-      font-size: 0.78rem;
-      color: var(--muted);
-      margin-bottom: 1.25rem;
+      padding-right: 2rem;
     }
 
     .modal p {
-      font-size: 0.875rem;
+      font-size: 0.9rem;
       color: var(--muted);
       line-height: 1.75;
       margin-bottom: 1rem;
@@ -622,8 +597,8 @@
     }
 
     .modal h4 {
-      font-size: 0.8rem;
-      font-weight: 700;
+      font-size: 0.78rem;
+      font-weight: 600;
       text-transform: uppercase;
       letter-spacing: 0.08em;
       color: var(--muted);
@@ -637,7 +612,7 @@
 
     .modal ol li,
     .modal ul li {
-      font-size: 0.85rem;
+      font-size: 0.88rem;
       color: var(--muted);
       margin-bottom: 0.4rem;
       line-height: 1.6;
@@ -645,23 +620,23 @@
 
     .modal-links {
       display: flex;
-      gap: 0.5rem;
+      gap: 0.4rem;
       flex-wrap: wrap;
       margin-top: 1.25rem;
     }
 
     /* FOOTER */
     footer {
-      text-align: center;
-      padding: 3rem 2rem;
-      color: var(--muted);
-      font-size: 0.8rem;
+      max-width: var(--max);
+      margin: 4rem auto 0;
+      padding: 2rem 1.5rem 3rem;
       border-top: 1px solid var(--border);
+      color: var(--muted);
+      font-size: 0.82rem;
     }
 
     footer a {
       color: var(--muted);
-      text-decoration: none;
     }
 
     footer a:hover {
@@ -671,34 +646,41 @@
     @media (max-width: 640px) {
       #about {
         grid-template-columns: 1fr;
-        text-align: center;
+        gap: 1.5rem;
+        padding-top: 2.5rem;
       }
 
       .hero-avatar {
+        order: -1;
         width: 120px;
         height: 120px;
-        margin: 0 auto;
       }
 
-      .hero-actions {
-        justify-content: center;
-      }
-
-      .hero-bio {
-        margin: 0 auto 2rem;
-      }
-
-      .timeline-item {
-        grid-template-columns: 1fr;
-        gap: 0.25rem;
-      }
-
-      nav {
+      .nav-inner {
         padding: 0 1rem;
       }
 
+      .nav-right,
       .nav-links {
-        gap: 0.75rem;
+        gap: 1rem;
+      }
+
+      .nav-links a {
+        font-size: 0.85rem;
+      }
+
+      .nav-logo .full {
+        display: none;
+      }
+
+      .nav-logo .short {
+        display: inline;
+      }
+
+      .row,
+      .skill-row {
+        grid-template-columns: 1fr;
+        gap: 0.15rem;
       }
 
       .projects-grid {
@@ -706,24 +688,27 @@
       }
     }
 
+    /* DARK THEME: system preference unless overridden via [data-theme] (keep both blocks in sync) */
     @media (prefers-color-scheme: dark) {
-      :root {
-        --bg: #0f0f0f;
-        --surface: #1a1a1a;
-        --border: #2e2e2e;
-        --text: #e8e8e8ba;
-        --muted: #999999;
-        --accent: #4d9de0;
-        --accent-light: #1a2a3a;
+      :root:not([data-theme="light"]) {
+        --bg: #111111;
+        --surface: #181818;
+        --border: #2a2a2a;
+        --text: #e6e6e6;
+        --muted: #9a9a9a;
+        --accent: #6c9bff;
+        --accent-light: #1a2233;
       }
+    }
 
-      nav {
-        background: rgba(15, 15, 15, 0.88);
-      }
-
-      .modal {
-        background: var(--surface);
-      }
+    :root[data-theme="dark"] {
+      --bg: #111111;
+      --surface: #181818;
+      --border: #2a2a2a;
+      --text: #e6e6e6;
+      --muted: #9a9a9a;
+      --accent: #6c9bff;
+      --accent-light: #1a2233;
     }
 
     :focus-visible {
@@ -737,106 +722,292 @@
 <body>
 
   <nav>
-    <a class="nav-logo" href="#about">AN</a>
-    <ul class="nav-links">
-      <li><a href="#about">About</a></li>
-      <li><a href="#skills">Skills</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#research">Research</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#education">Education</a></li>
-      <li><a href="#certifications">Certifications</a></li>
-    </ul>
+    <div class="nav-inner">
+      <a class="nav-logo" href="#about" aria-label="Abhishek Nayak"><span class="full">Abhishek Nayak</span><span class="short">AN</span></a>
+      <div class="nav-right">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#research">Publications</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#cv">CV</a></li>
+        </ul>
+        <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Dark mode" aria-pressed="false">&#9680;</button>
+      </div>
+    </div>
   </nav>
 
-  <!-- HERO -->
-  <section id="about">
-    <div class="hero-text">
-      <p class="section-label">Portfolio</p>
-      <h1>Abhishek Nayak, PhD</h1>
-      <p class="hero-role">Senior Software Engineer · MathWorks</p>
-      <p class="hero-bio">Ph.D. in Mechanical Engineering from Texas A&M University, with experience in motion
-        planning, perception, and machine learning for self-driving vehicles, UAVs, and indoor robots.
-        My research has produced 8+ peer-reviewed publications and 100+ citations, with work spanning multi-agent path
-        planning, computer vision for ADAS, and infrastructure-enabled autonomy. Currently working as a Senior Software
-        Engineer at MathWorks, where I bring my research thinking to production-grade software development.</p>
-      <div class="hero-actions">
-        <a class="btn btn-primary" href="mailto:nykabhishek@gmail.com">✉ Email me</a>
-        <a class="btn btn-outline" href="https://www.linkedin.com/in/nykabhishek" target="_blank">
-          <img src="https://www.google.com/s2/favicons?domain=linkedin.com&sz=32" width="16" height="16" alt="" aria-hidden="true" />
-          LinkedIn
-        </a>
-        <a class="btn btn-outline" href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl" target="_blank">
-          <img src="https://www.google.com/s2/favicons?domain=scholar.google.com&sz=32" width="16" height="16" alt="" aria-hidden="true" />
-          Google Scholar
-        </a>
-      </div>
-    </div>
-    <picture>
-      <img class="hero-avatar" src="./img/abhishek_nayak.jpg" alt="Abhishek Nayak" loading="lazy" />
-    </picture>
-  </section>
+  <main>
 
-  <hr class="divider" />
-
-  <!-- SKILLS -->
-  <section id="skills">
-    <p class="section-label">Expertise</p>
-    <h2 class="section-title">Technical Skills</h2>
-    <div class="skills-grid">
-      <div class="skill-card">
-        <h4>Programming</h4>
-        <div class="skill-tags"><span class="tag">C++</span><span class="tag">Python</span><span
-            class="tag">MATLAB</span><span class="tag">ROS</span><span class="tag">Git</span><span
-            class="tag">Perforce</span></div>
-      </div>
-      <div class="skill-card">
-        <h4>ML / Libraries</h4>
-        <div class="skill-tags"><span class="tag">OpenCV</span><span class="tag">scikit-learn</span><span
-            class="tag">XGBoost</span><span class="tag">NumPy</span><span class="tag">NetworkX</span></div>
-      </div>
-      <div class="skill-card">
-        <h4>Frameworks</h4>
-        <div class="skill-tags"><span class="tag">Keras</span><span class="tag">PyTorch</span><span
-            class="tag">TensorFlow</span><span class="tag">Gazebo</span></div>
-      </div>
-      <div class="skill-card">
-        <h4>Design & CAD</h4>
-        <div class="skill-tags"><span class="tag">CREO</span><span class="tag">SolidWorks</span><span
-            class="tag">AutoCAD</span><span class="tag">CATIA v5</span></div>
-      </div>
-      <div class="skill-card">
-        <h4>Solvers & Tools</h4>
-        <div class="skill-tags"><span class="tag">CPLEX</span><span class="tag">Gurobi</span><span
-            class="tag">Simulink</span><span class="tag">Linux</span></div>
-      </div>
-      <div class="skill-card">
-        <h4>Other</h4>
-        <div class="skill-tags"><span class="tag">LaTeX</span><span class="tag">AVL Cruise</span><span
-            class="tag">Photoshop</span></div>
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- EXPERIENCE -->
-  <section id="experience">
-    <p class="section-label">Career</p>
-    <h2 class="section-title">Experience</h2>
-    <div class="timeline">
-      <div class="timeline-item">
-        <div class="timeline-date">2023 - Present</div>
-        <div class="timeline-body">
-          <h3>Senior Software Engineer</h3>
-          <p class="org">The MathWorks Inc.</p>
-          <p class="loc">Natick, Massachusetts</p>
+    <!-- ABOUT -->
+    <section id="about">
+      <div>
+        <h1>Abhishek <strong>Nayak</strong>, PhD</h1>
+        <p class="hero-role">Senior Software Engineer in Test · MathWorks</p>
+        <p class="hero-bio">I'm a Senior Software Engineer in Test at MathWorks, working on sensor simulation for autonomous systems.</p>
+        <p class="hero-bio">I hold a Ph.D. in Mechanical Engineering from Texas A&amp;M University. My research covered
+          motion planning, perception, and machine learning for self-driving vehicles, UAVs, and indoor robots,
+          including multi-agent path planning, computer vision for ADAS, and infrastructure-enabled autonomy. It has
+          produced 10+ <a href="#research">publications</a> and 120+ citations.
+        </p>
+        <div class="hero-links">
+          <a href="mailto:nykabhishek@gmail.com">Email</a>
+          <a href="https://www.linkedin.com/in/nykabhishek" target="_blank" rel="noopener">LinkedIn</a>
+          <a href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl" target="_blank"
+            rel="noopener">Google Scholar</a>
+          <a href="https://github.com/nykabhishek" target="_blank" rel="noopener">GitHub</a>
         </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2022</div>
-        <div class="timeline-body">
-          <h3>Autonomous Systems Engineer</h3>
+      <picture>
+        <source srcset="./img/avatar-360.webp" type="image/webp" />
+        <img class="hero-avatar" src="./img/avatar-360.jpg" width="180" height="180" alt="Abhishek Nayak" />
+      </picture>
+    </section>
+
+    <!-- PUBLICATIONS -->
+    <section id="research">
+      <h2 class="section-title">Publications</h2>
+      <p class="section-intro">Peer-reviewed papers, a dissertation, and invited talks. Full list on <a
+          href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl" target="_blank" rel="noopener">Google
+          Scholar</a>.</p>
+
+      <div class="row">
+        <div class="pub-year">2024</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">Assessing Pavement Markings for Automated Vehicle Readiness</p>
+            <p class="pub-authors">Pike, A., Shirinzad, M., <span class="me">Nayak, A.</span>, &amp; Rathinam, S.</p>
+            <p class="pub-venue">Technical Report, 2024</p>
+            <a class="badge" href="https://safemarkings.com/wp-content/uploads/2025/07/MN-DOT-Wider-LInes-report-with-Machine-Vision.pdf.pdf"
+              target="_blank" rel="noopener">PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="pub-year">2023</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">G*: A New Approach to Bounding Curvature Constrained Shortest Paths through Dubins
+              Gates</p>
+            <p class="pub-authors">Manyam, S. G., <span class="me">Nayak, A.</span>, &amp; Rathinam, S.</p>
+            <p class="pub-venue">Robotics: Science and Systems, 2023</p>
+            <a class="badge" href="https://www.roboticsproceedings.org/rss19/p059.pdf" target="_blank"
+              rel="noopener">PDF</a>
+            <a class="badge" href="https://github.com/nykabhishek/G-star" target="_blank"
+              rel="noopener">GitHub</a>
+          </div>
+          <div>
+            <p class="pub-title">Heuristics and Learning Models for Dubins MinMax Traveling Salesman Problem</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span> &amp; Rathinam, S.</p>
+            <p class="pub-venue">Sensors 2023, 23(14), 6432</p>
+            <a class="badge" href="https://www.mdpi.com/1424-8220/23/14/6432/pdf?version=1689601379" target="_blank"
+              rel="noopener">PDF</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="pub-year">2022</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">Planning and Vision Based Methods for Autonomous Vehicles</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span></p>
+            <p class="pub-venue">PhD Dissertation, Texas A&amp;M University, Dec 2022 · Advisor: Dr. Sivakumar Rathinam</p>
+            <a class="badge" href="https://oaktrust.library.tamu.edu/items/b052441a-efcd-4440-971a-bdbe21c6d47a"
+              target="_blank" rel="noopener">OAKTrust</a>
+          </div>
+          <div>
+            <p class="pub-title">Effect of Pavement Markings on Machine Vision Used in ADAS Functions</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span>, Pike, A., &amp; Rathinam, S.</p>
+            <p class="pub-venue">SAE Technical Paper 2022-01-0154</p>
+            <a class="badge" href="https://doi.org/10.4271/2022-01-0154" target="_blank" rel="noopener">DOI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="pub-year">2020</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">An Approximation Algorithm for a Task Allocation, Sequencing and Scheduling Problem
+              Involving a Human-Robot Team</p>
+            <p class="pub-authors">Hari, S. K. K., <span class="me">Nayak, A.</span>, &amp; Rathinam, S.</p>
+            <p class="pub-venue">IEEE Robotics and Automation Letters, vol. 5, no. 2, April 2020</p>
+            <a class="badge" href="https://ieeexplore.ieee.org/document/8977310" target="_blank"
+              rel="noopener">IEEE</a>
+          </div>
+          <div>
+            <p class="pub-title">Reference Test System for Machine Vision Used for ADAS Functions</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span>, Rathinam, S., Pike, A., &amp; Gopalswamy, S.</p>
+            <p class="pub-venue">SAE Technical Paper 2020-01-0096</p>
+            <a class="badge" href="https://doi.org/10.4271/2020-01-0096" target="_blank" rel="noopener">DOI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="pub-year">2019</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">Development of Vision-based Response of Autonomous Vehicles Towards Emergency
+              Vehicles Using Infrastructure Enabled Autonomy</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span></p>
+            <p class="pub-venue">M.S. Thesis, Texas A&amp;M University, 2019</p>
+            <a class="badge" href="https://oaktrust.library.tamu.edu/items/c94abd71-7c17-4b7e-a2cc-476fac1fc885"
+              target="_blank" rel="noopener">OAKTrust</a>
+          </div>
+          <div>
+            <p class="pub-title">Vision Based Localization for Infrastructure Enabled Autonomy</p>
+            <p class="pub-authors">Ravipati, D., Chour, K., <span class="me">Nayak, A.</span>, et al.</p>
+            <p class="pub-venue">IEEE ITSC 2019, Auckland, New Zealand</p>
+            <a class="badge" href="https://ieeexplore.ieee.org/document/8916896" target="_blank"
+              rel="noopener">IEEE</a>
+          </div>
+          <div>
+            <p class="pub-title">Vision-Based Techniques for Identifying Emergency Vehicles</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span>, Gopalswamy, S., &amp; Rathinam, S.</p>
+            <p class="pub-venue">SAE Technical Paper 2019-01-0889</p>
+            <a class="badge" href="https://doi.org/10.4271/2019-01-0889" target="_blank" rel="noopener">DOI</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="pub-year">2018</div>
+        <div class="pub-entries">
+          <div>
+            <p class="pub-title">A Distributed Hybrid Hardware-in-the-Loop Simulation Framework for Infrastructure
+              Enabled Autonomy</p>
+            <p class="pub-authors"><span class="me">Nayak, A.</span>, Chour, K., Marr, T., et al.</p>
+            <p class="pub-venue">arXiv preprint arXiv:1802.01787, 2018</p>
+            <a class="badge" href="https://arxiv.org/abs/1802.01787" target="_blank" rel="noopener">arXiv</a>
+          </div>
+        </div>
+      </div>
+
+      <h3 class="sub-title" id="talks">Invited Talks</h3>
+      <div class="row">
+        <div class="row-meta">Oct 2021</div>
+        <div class="row-body">
+          <h4>Safe-D Webinar on Reference Machine Vision for ADAS Functions</h4>
+          <p class="loc">College Station, TX</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">Oct 2019</div>
+        <div class="row-body">
+          <h4>Safe-D UTC Graduate Student Leadership Development Seminar Series</h4>
+          <p class="loc">College Station, TX</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">Oct 2018</div>
+        <div class="row-body">
+          <h4>Texas Mobility Summit</h4>
+          <p class="loc">Arlington, TX</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">Feb 2014</div>
+        <div class="row-body">
+          <h4>Seminar on Intelligent Transportation Systems, NITK</h4>
+          <p class="loc">Surathkal, India</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <h2 class="section-title">Projects</h2>
+      <p class="section-intro">Selected research and engineering projects.</p>
+      <div class="projects-grid">
+        <div class="project-card">
+          <img class="project-img" src="./img/multislam.webp" width="1076" height="527" alt="Multi-Agent SLAM" loading="lazy" />
+          <div class="project-body">
+            <h3>Multi-Agent SLAM &amp; Navigation using ROSBot</h3>
+            <p>Multi-robot indoor mapping and navigation among obstacles.</p>
+            <div class="project-links">
+              <button type="button" class="project-link" onclick="openModal('multiSLAM', this)">Details</button>
+              <a class="project-link" href="https://github.com/nykabhishek/rosbot-multi-agent-SLAM" target="_blank"
+                rel="noopener">GitHub</a>
+              <a class="project-link" href="https://oaktrust.library.tamu.edu/items/b052441a-efcd-4440-971a-bdbe21c6d47a" target="_blank"
+                rel="noopener">Thesis</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="./img/rmv.webp" width="1951" height="879" alt="Reference Machine Vision" loading="lazy" />
+          <div class="project-body">
+            <h3>Reference Machine Vision for ADAS</h3>
+            <p>Reference system for evaluating lane markings and lane-detection algorithms in ADAS.</p>
+            <div class="project-links">
+              <button type="button" class="project-link" onclick="openModal('rmv', this)">Details</button>
+              <a class="project-link" href="https://trid.trb.org/view/1875767" target="_blank"
+                rel="noopener">Dataset</a>
+              <a class="project-link" href="https://vtechworks.lib.vt.edu/handle/10919/104206" target="_blank"
+                rel="noopener">Report</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="./img/ravev.webp" width="1117" height="629" alt="RAVEV" loading="lazy" />
+          <div class="project-body">
+            <h3>Response of AVs to Emergency Vehicles (RAVEV)</h3>
+            <p>Fused-sensor protocols for AVs to detect and safely respond to emergency vehicles.</p>
+            <div class="project-links">
+              <button type="button" class="project-link" onclick="openModal('ravev', this)">Details</button>
+              <a class="project-link" href="https://github.com/nykabhishek/RAVEV" target="_blank"
+                rel="noopener">GitHub</a>
+              <a class="project-link" href="https://oaktrust.library.tamu.edu/items/c94abd71-7c17-4b7e-a2cc-476fac1fc885" target="_blank"
+                rel="noopener">Thesis</a>
+              <a class="project-link" href="https://vtechworks.lib.vt.edu/handle/10919/100646" target="_blank"
+                rel="noopener">Report</a>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="./img/iea.webp" width="4000" height="2250" alt="IEA" loading="lazy" />
+          <div class="project-body">
+            <h3>Infrastructure Enabled Autonomy (IEA)</h3>
+            <p>Distributed intelligence for connected AVs by offloading computation to roadside infrastructure.</p>
+            <div class="project-links">
+              <button type="button" class="project-link" onclick="openModal('iea', this)">Details</button>
+            </div>
+          </div>
+        </div>
+        <div class="project-card">
+          <img class="project-img" src="./img/focus.webp" width="4604" height="2590" alt="Ford Focus" loading="lazy" />
+          <div class="project-body">
+            <h3>Low-Cost Drive-By-Wire for Ford Focus</h3>
+            <p>Low-cost drive-by-wire for a Ford Focus via Arduino Mega sensor emulation.</p>
+            <div class="project-links">
+              <button type="button" class="project-link" onclick="openModal('focus', this)">Details</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CV -->
+    <section id="cv">
+      <h2 class="section-title">CV</h2>
+
+      <h3 class="sub-title" id="experience" style="margin-top:1.5rem;">Experience</h3>
+      <div class="row">
+        <div class="row-meta">2023 – Present</div>
+        <div class="row-body">
+          <h4>Senior Software Engineer in Test · Autonomous Systems</h4>
+          <p class="org">The MathWorks Inc.</p>
+          <p class="loc">Natick, Massachusetts</p>
+          <ul>
+            <li>Testing and quality for sensor simulation in autonomous systems.</li>
+          </ul>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">Until Dec 2022</div>
+        <div class="row-body">
+          <h4>Autonomous Systems Engineer</h4>
           <p class="org">Joulea Inc.</p>
           <p class="loc">Atlanta, Georgia</p>
           <ul>
@@ -845,11 +1016,11 @@
           </ul>
         </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2018 – 2021</div>
-        <div class="timeline-body">
-          <h3>Graduate Research Assistant</h3>
-          <p class="org">Texas A&M Transportation Institute (TTI)</p>
+      <div class="row">
+        <div class="row-meta">2018 – 2021</div>
+        <div class="row-body">
+          <h4>Graduate Research Assistant</h4>
+          <p class="org">Texas A&amp;M Transportation Institute (TTI)</p>
           <p class="loc">College Station, Texas</p>
           <ul>
             <li>Reference Machine Vision for ADAS functions.</li>
@@ -857,11 +1028,11 @@
           </ul>
         </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2017 – 2022</div>
-        <div class="timeline-body">
-          <h3>Graduate Research Assistant</h3>
-          <p class="org">Texas A&M Engineering Experiment Station</p>
+      <div class="row">
+        <div class="row-meta">2017 – 2022</div>
+        <div class="row-body">
+          <h4>Graduate Research Assistant</h4>
+          <p class="org">Texas A&amp;M Engineering Experiment Station</p>
           <p class="loc">College Station, Texas</p>
           <ul>
             <li>Heuristics and RL models for motion-constrained multi-agent vehicle routing.</li>
@@ -871,270 +1042,105 @@
           </ul>
         </div>
       </div>
-      <div class="timeline-item">
-        <div class="timeline-date">2014 – 2017</div>
-        <div class="timeline-body">
-          <h3>Member R&D</h3>
+      <div class="row">
+        <div class="row-meta">2014 – 2017</div>
+        <div class="row-body">
+          <h4>Member R&amp;D</h4>
           <p class="org">TVS Motor Company</p>
           <p class="loc">Hosur, TN, India</p>
           <ul>
-            <li>Developed MATLAB powertrain models and performed HIL testing & verification.</li>
-            <li>Designed powertrain components using CAD; performance testing on TVS & BMW engines.</li>
+            <li>Developed MATLAB powertrain models and performed HIL testing &amp; verification.</li>
+            <li>Designed powertrain components using CAD; performance testing on TVS &amp; BMW engines.</li>
             <li>Cross-functional collaboration on new product development and sensor procurement.</li>
           </ul>
         </div>
       </div>
-    </div>
-  </section>
 
-  <hr class="divider" />
+      <h3 class="sub-title" id="education">Education</h3>
+      <div class="row">
+        <div class="row-meta">2022</div>
+        <div class="row-body">
+          <h4>PhD · Mechanical Engineering</h4>
+          <p class="org">Texas A&amp;M University, College Station, TX</p>
+          <p class="loc">Dissertation: Planning and Vision Based Methods for Autonomous Vehicles</p>
+          <a class="row-link" href="https://oaktrust.library.tamu.edu/items/b052441a-efcd-4440-971a-bdbe21c6d47a"
+            target="_blank" rel="noopener">View dissertation ↗</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">2019</div>
+        <div class="row-body">
+          <h4>M.S. · Mechanical Engineering</h4>
+          <p class="org">Texas A&amp;M University, College Station, TX</p>
+          <p class="loc">Thesis: Development of Vision-based Response of Autonomous Vehicles Towards Emergency Vehicles Using
+            Infrastructure Enabled Autonomy</p>
+          <a class="row-link" href="https://oaktrust.library.tamu.edu/items/c94abd71-7c17-4b7e-a2cc-476fac1fc885"
+            target="_blank" rel="noopener">View thesis ↗</a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="row-meta">2014</div>
+        <div class="row-body">
+          <h4>B.Tech · Mechanical Engineering</h4>
+          <p class="org">National Institute of Technology Karnataka (NITK), India</p>
+        </div>
+      </div>
 
-  <!-- RESEARCH -->
-  <section id="research">
-    <p class="section-label">Academic</p>
-    <h2 class="section-title">Research</h2>
-    <p class="research-intro">My research focuses on developing advanced algorithms and machine learning models for
-      self-driving vehicles, indoor robots, and aerial vehicles — improving their motion planning, perception,
-      decision-making, and navigation capabilities.</p>
+      <h3 class="sub-title" id="skills">Technical Skills</h3>
+      <dl>
+        <div class="skill-row"><dt>Programming</dt><dd>C++, Python, MATLAB, ROS, Git, Perforce, LaTeX</dd></div>
+        <div class="skill-row"><dt>ML / Libraries</dt><dd>OpenCV, scikit-learn, XGBoost, NumPy, NetworkX</dd></div>
+        <div class="skill-row"><dt>Frameworks</dt><dd>Keras, PyTorch, TensorFlow, Gazebo</dd></div>
+        <div class="skill-row"><dt>AI Tools</dt><dd>Claude Code, OpenAI Codex</dd></div>
+        <div class="skill-row"><dt>Design &amp; CAD</dt><dd>CREO, SolidWorks, AutoCAD, CATIA v5</dd></div>
+        <div class="skill-row"><dt>Solvers &amp; Tools</dt><dd>CPLEX, Gurobi, Simulink, Linux</dd></div>
+      </dl>
 
-    <h3 style="font-size:1rem;font-weight:700;margin-bottom:1.25rem;">Publications</h3>
-    <div class="pub-list">
-      <div class="pub-item">
-        <span class="pub-num">1</span>
-        <div class="pub-body">
-          <p>Manyam, S. G., Nayak, A., & Rathinam, S. — <strong>G* A New Approach to Bounding Curvature Constrained
-              Shortest Paths through Dubins Gates</strong></p>
-          <p class="pub-venue">Robotics: Science and Systems, 2023</p>
-          <a class="pub-link" href="https://www.roboticsproceedings.org/rss19/p059.pdf" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">2</span>
-        <div class="pub-body">
-          <p>Nayak, A., & Rathinam, S. — <strong>Heuristics and Learning Models for Dubins MinMax Traveling Salesman
-              Problem</strong></p>
-          <p class="pub-venue">Sensors 2023, 23(14), 6432</p>
-          <a class="pub-link" href="https://www.mdpi.com/1424-8220/23/14/6432/pdf?version=1689601379"
-            target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">3</span>
-        <div class="pub-body">
-          <p>Nayak, A., Pike, A., & Rathinam, S. — <strong>Effect of Pavement Markings on Machine Vision Used in ADAS
-              Functions</strong></p>
-          <p class="pub-venue">SAE Technical Paper 2022-01-0154</p>
-          <a class="pub-link" href="https://doi.org/10.4271/2022-01-0154" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">4</span>
-        <div class="pub-body">
-          <p>Hari, S. K. K., Nayak, A., & Rathinam, S. — <strong>An Approximation Algorithm for a Task Allocation,
-              Sequencing and Scheduling Problem Involving a Human-Robot Team</strong></p>
-          <p class="pub-venue">IEEE Robotics and Automation Letters, vol. 5, no. 2, April 2020</p>
-          <a class="pub-link" href="https://ieeexplore.ieee.org/document/8977310" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">5</span>
-        <div class="pub-body">
-          <p>Nayak, A., Rathinam, S., Pike, A., & Gopalswamy, S. — <strong>Reference Test System for Machine Vision Used
-              for ADAS Functions</strong></p>
-          <p class="pub-venue">SAE Technical Paper 2020-01-0096</p>
-          <a class="pub-link" href="https://doi.org/10.4271/2020-01-0096" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">6</span>
-        <div class="pub-body">
-          <p>Ravipati, D., Chour, K., Nayak, A., et al. — <strong>Vision Based Localization for Infrastructure Enabled
-              Autonomy</strong></p>
-          <p class="pub-venue">IEEE ITSC 2019, Auckland, New Zealand</p>
-          <a class="pub-link" href="https://ieeexplore.ieee.org/document/8916896" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">7</span>
-        <div class="pub-body">
-          <p>Nayak, A., Gopalswamy, S., & Rathinam, S. — <strong>Vision-Based Techniques for Identifying Emergency
-              Vehicles</strong></p>
-          <p class="pub-venue">SAE Technical Paper 2019-01-0889</p>
-          <a class="pub-link" href="https://doi.org/10.4271/2019-01-0889" target="_blank">PDF</a>
-        </div>
-      </div>
-      <div class="pub-item">
-        <span class="pub-num">8</span>
-        <div class="pub-body">
-          <p>Nayak, A., Chour, K., Marr, T., et al. — <strong>A Distributed Hybrid Hardware-in-the-Loop Simulation
-              Framework for Infrastructure Enabled Autonomy</strong></p>
-          <p class="pub-venue">arXiv preprint arXiv:1802.01787, 2018</p>
-          <a class="pub-link" href="https://arxiv.org/abs/1802.01787" target="_blank">PDF</a>
-        </div>
-      </div>
-    </div>
-
-    <h3 style="font-size:1rem;font-weight:700;margin-bottom:1.25rem;">Invited Talks</h3>
-    <div class="talks-list">
-      <div class="talk-item">
-        <p>Safe-D Webinar on Reference Machine Vision for ADAS Functions</p><span>College Station, TX · Oct 2021</span>
-      </div>
-      <div class="talk-item">
-        <p>Safe-D UTC Graduate Student Leadership Development Seminar Series</p><span>College Station, TX · Oct
-          2019</span>
-      </div>
-      <div class="talk-item">
-        <p>Texas Mobility Summit</p><span>Arlington, TX · Oct 2018</span>
-      </div>
-      <div class="talk-item">
-        <p>Seminar on Intelligent Transportation Systems, NITK</p><span>Surathkal, India · Feb 2014</span>
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- PROJECTS -->
-  <section id="projects">
-    <p class="section-label">Work</p>
-    <h2 class="section-title">Projects</h2>
-    <div class="projects-grid">
-      <div class="project-card">
-        <img class="project-img" src="./img/multislam.webp" alt="Multi-Agent SLAM" loading="lazy" />
-        <div class="project-body">
-          <h3>Multi-Agent SLAM & Navigation using ROSBot</h3>
-          <p>Navigation using a team of robots in an indoor environment with obstacles.</p>
-          <div class="project-links">
-            <a class="project-link" href="#" onclick="event.preventDefault();openModal('multiSLAM')">Details</a>
-            <a class="project-link" href="https://github.com/nykabhishek/rosbot-multi-agent-SLAM"
-              target="_blank">GitHub</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img class="project-img" src="./img/rmv.webp" alt="Reference Machine Vision" loading="lazy" />
-        <div class="project-body">
-          <h3>Reference Machine Vision for ADAS</h3>
-          <p>A reference system for evaluating lane markings, pavement materials, and perception algorithms used in
-            ADAS.</p>
-          <div class="project-links">
-            <a class="project-link" href="#" onclick="event.preventDefault();openModal('rmv')">Details</a>
-            <a class="project-link" href="https://trid.trb.org/view/1875767" target="_blank">Dataset</a>
-            <a class="project-link" href="https://vtechworks.lib.vt.edu/handle/10919/104206" target="_blank">Report</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img class="project-img" src="./img/ravev.webp" alt="RAVEV" loading="lazy" />
-        <div class="project-body">
-          <h3>Response of AVs to Emergency Vehicles (RAVEV)</h3>
-          <p>Protocols for autonomous vehicles to safely respond to emergency vehicles using fused sensor data.</p>
-          <div class="project-links">
-            <a class="project-link" href="#" onclick="event.preventDefault();openModal('ravev')">Details</a>
-            <a class="project-link" href="https://github.com/nykabhishek/RAVEV" target="_blank">GitHub</a>
-            <a class="project-link" href="https://vtechworks.lib.vt.edu/handle/10919/100646" target="_blank">Report</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img class="project-img" src="./img/iea.webp" alt="IEA" loading="lazy" />
-        <div class="project-body">
-          <h3>Infrastructure Enabled Autonomy (IEA)</h3>
-          <p>A distributed intelligence architecture for Connected Autonomous Vehicles (CAV) by offloading computation
-            to infrastructure.</p>
-          <div class="project-links">
-            <a class="project-link" href="#" onclick="event.preventDefault();openModal('iea')">Details</a>
-          </div>
-        </div>
-      </div>
-      <div class="project-card">
-        <img class="project-img" src="./img/focus.webp" alt="Ford Focus" loading="lazy" />
-        <div class="project-body">
-          <h3>Low-Cost Drive-By-Wire for Ford Focus</h3>
-          <p>A low-cost drive-by-wire system to control a Ford Focus via sensor emulation using Arduino Mega.</p>
-          <div class="project-links">
-            <a class="project-link" href="#" onclick="event.preventDefault();openModal('focus')">Details</a>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- EDUCATION -->
-  <section id="education">
-    <p class="section-label">Academic Background</p>
-    <h2 class="section-title">Education</h2>
-    <div class="edu-grid">
-      <div class="edu-card">
-        <div>
-          <h3>PhD · Mechanical Engineering</h3>
-          <p class="school">Texas A&M University, College Station, TX</p>
-        </div>
-        <span class="edu-year">2022</span>
-      </div>
-      <div class="edu-card">
-        <div>
-          <h3>M.S. · Mechanical Engineering</h3>
-          <p class="school">Texas A&M University, College Station, TX</p>
-        </div>
-        <span class="edu-year">2019</span>
-      </div>
-      <div class="edu-card">
-        <div>
-          <h3>B.Tech · Mechanical Engineering</h3>
-          <p class="school">National Institute of Technology Karnataka (NITK), India</p>
-        </div>
-        <span class="edu-year">2014</span>
-      </div>
-    </div>
-  </section>
-
-  <hr class="divider" />
-
-  <!-- CERTIFICATIONS -->
-  <section id="certifications">
-    <p class="section-label">Credentials</p>
-    <h2 class="section-title">Certifications</h2>
-    <div class="cert-list">
-      <div class="cert-item">
-        <div>
+      <h3 class="sub-title" id="certifications">Certifications</h3>
+      <div class="row">
+        <div class="row-meta">Apr 2022</div>
+        <div class="row-body">
           <h4>Self-Driving Cars Specialization</h4>
-          <p class="issuer">Coursera · Apr 2022</p>
+          <p class="org">Coursera</p>
+          <a class="row-link"
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/YKQ52BH7J993"
+            target="_blank" rel="noopener">View certificate ↗</a>
         </div>
-        <a class="cert-link"
-          href="https://www.coursera.org/account/accomplishments/specialization/certificate/YKQ52BH7J993"
-          target="_blank">View Certificate ↗</a>
       </div>
-      <div class="cert-item">
-        <div>
+      <div class="row">
+        <div class="row-meta">Sep 2020</div>
+        <div class="row-body">
           <h4>Deep Learning Specialization</h4>
-          <p class="issuer">Coursera · Sep 2020</p>
+          <p class="org">Coursera</p>
+          <a class="row-link"
+            href="https://www.coursera.org/account/accomplishments/specialization/certificate/PZRPRTSRHHWW"
+            target="_blank" rel="noopener">View certificate ↗</a>
         </div>
-        <a class="cert-link"
-          href="https://www.coursera.org/account/accomplishments/specialization/certificate/PZRPRTSRHHWW"
-          target="_blank">View Certificate ↗</a>
       </div>
-      <div class="cert-item">
-        <div>
+      <!-- Hidden for now
+      <div class="row">
+        <div class="row-meta">Aug 2015</div>
+        <div class="row-body">
           <h4>CREO Parametric</h4>
-          <p class="issuer">CADD Centre · Aug 2015</p>
+          <p class="org">CADD Centre</p>
+          <a class="row-link" href="https://registry.caddcentre.com/old/caddVerification.php?ddac=NDg3NTIw"
+            target="_blank" rel="noopener">View certificate ↗</a>
         </div>
-        <a class="cert-link" href="https://registry.caddcentre.com/old/caddVerification.php?ddac=NDg3NTIw"
-          target="_blank">View Certificate ↗</a>
       </div>
-    </div>
-  </section>
+      -->
+    </section>
+
+  </main>
 
   <!-- MODAL -->
   <div class="modal-overlay" id="modal-overlay" onclick="if(event.target===this)closeModal()">
-    <div class="modal" id="modal-content"></div>
+    <div class="modal" id="modal-content" role="dialog" aria-modal="true" aria-labelledby="modal-title"></div>
   </div>
 
   <footer>
     <p><span id="copyright-year"></span> Abhishek Nayak · <a
-        href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl" target="_blank">Google Scholar</a></p>
+        href="https://scholar.google.co.uk/citations?user=1jTDYzQAAAAJ&hl" target="_blank" rel="noopener">Google
+        Scholar</a></p>
   </footer>
 
   <script type="application/ld+json">
@@ -1143,7 +1149,7 @@
     "@type": "Person",
     "name": "Abhishek Nayak",
     "url": "https://nykabhishek.github.io",
-    "jobTitle": "Senior Software Engineer",
+    "jobTitle": "Senior Software Engineer in Test",
     "worksFor": { "@type": "Organization", "name": "MathWorks" },
     "alumniOf": { "@type": "CollegeOrUniversity", "name": "Texas A&M University" },
     "knowsAbout": ["Autonomous Vehicles", "Motion Planning", "Robotics", "Machine Learning", "Computer Vision"],
@@ -1156,31 +1162,26 @@
   </script>
 
   <script>
+    const videos = ids => `<h4>Demo Videos</h4>
+    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.5rem;">
+${ids.map(id => `      <iframe width="100%" height="280" src="https://www.youtube.com/embed/${id}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>`).join('\n')}
+    </div>`;
     const projects = {
       multiSLAM: {
         title: "Multi-Agent SLAM & Navigation using ROSBot",
-        date: "Dec 30, 2021 · Abhishek Nayak",
         img: "./img/multislam.webp",
-        body: `<p>Designed and deployed a multi-robot SLAM system enabling autonomous frontier exploration and occupancy grid mapping from LiDAR point-cloud data using ROSBots 2.0. Implemented and benchmarked multiple path planning algorithms — Dijkstra, A*, D* Lite, RRT, and Probabilistic Roadmap (PRM) — for robust indoor navigation in obstacle-rich environments. This platform served as the experimental testbed for multi-agent path planning methods developed in my Ph.D. thesis, bridging theoretical research with real-world robotics deployment.</em></p>`,
+        body: `<p>Built a multi-robot SLAM system on ROSBots 2.0 for autonomous frontier exploration and LiDAR occupancy-grid mapping. Benchmarked Dijkstra, A*, D* Lite, RRT, and PRM for indoor navigation among obstacles. Served as the hardware testbed for the multi-agent planning methods in my Ph.D. thesis.</p>`,
         links: [
-          { label: "GitHub", href: "https://github.com/nykabhishek/rosbot-multi-agent-SLAM" }
+          { label: "GitHub", href: "https://github.com/nykabhishek/rosbot-multi-agent-SLAM" },
+          { label: "PhD Dissertation", href: "https://oaktrust.library.tamu.edu/items/b052441a-efcd-4440-971a-bdbe21c6d47a" }
         ]
       },
       rmv: {
         title: "Reference Machine Vision for ADAS Functions",
-        date: "Dec 30, 2021 · Abhishek Nayak",
         img: "./img/rmv.webp",
-        body: `<p><strong>Abstract:</strong> Led the end-to-end development of a reference lane detection (LD) system designed to benchmark perception algorithms and pavement marking standards for Advanced Driver Assistance Systems (ADAS). Collected and curated an extensive annotated video dataset across diverse road conditions, weather, and lighting in Central Texas. Applied statistical analysis to quantify the relationship between lane marking quality and LD algorithm performance, delivering actionable insights for state transportation agencies and OEMs. Results directly informed federal standards for LDW and LKA system evaluation under a $340K Safe-D UTC grant.</p>
-    <h4>Demo Videos</h4>
-    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.5rem;">
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/rZTTLVrJFtM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/U4w29nLmVa0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-    </div>
-    <h4>References</h4>
-    <ol>
-      <li>Nayak, A., Pike, A., & Rathinam, S. (2022). Effect of pavement markings on machine vision used in ADAS functions. SAE Technical Paper 2022-01-0154.</li>
-      <li>Nayak, A., Pike, A., Rathinam, S., & Gopalswamy, S. (2020). Reference test system for machine vision used for ADAS functions. SAE Technical Paper 2020-01-0096.</li>
-    </ol>`,
+        body: `<p>Led development of a reference lane-detection system to benchmark perception algorithms and pavement markings for ADAS. Built an annotated video dataset across road, weather, and lighting conditions in Central Texas, and statistically related marking quality to detection performance. Results informed federal LDW and LKA evaluation standards under a $340K Safe-D UTC grant.</p>
+    ${videos(['rZTTLVrJFtM', 'U4w29nLmVa0'])}
+`,
         links: [
           { label: "Safe-D Page", href: "https://safed.vtti.vt.edu/projects/reference-machine-vision-for-adas-functions/" },
           { label: "Dataset (VTTI Dataverse)", href: "https://dataverse.vtti.vt.edu/dataset.xhtml?persistentId=doi:10.15787/VTT1/5FGGKD" },
@@ -1191,16 +1192,9 @@
       },
       ravev: {
         title: "Response of AVs to Emergency Response Vehicles (RAVEV)",
-        date: "Dec 30, 2021 · Abhishek Nayak",
         img: "./img/ravev.webp",
-        body: `<p>Developed a multi-modal autonomous vehicle response framework for detecting and reacting to emergency vehicles using fused vision, audio, and onboard sensor data. Built and curated a novel Emergency Vehicle (EV) image dataset and trained computer vision models using deep neural networks, and machine learning algorithms for real-time EV detection and localization. Implemented spatio-temporal multi-object tracking for continuous EV monitoring in video sequences and proposed two distinct AV response protocols evaluated in real-world and simulated scenarios. Funded by Safe-D UTC; findings submitted to SAE and published in peer-reviewed venues.</p>
-    <h4>Demo Videos</h4>
-    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.5rem;">
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/RnoCnT-sKZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/jC9_wJNKgvk" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/7__n65RxJSA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/RnoCnT-sKZ0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-    </div>
+        body: `<p>Developed a multi-modal framework for autonomous vehicles to detect and respond to emergency vehicles, fusing vision, audio, and onboard sensors. Built an emergency-vehicle image dataset, trained deep-learning detectors with spatio-temporal tracking, and proposed two AV response protocols evaluated in real and simulated scenarios. Funded by Safe-D UTC.</p>
+    ${videos(['RnoCnT-sKZ0', 'jC9_wJNKgvk', '7__n65RxJSA'])}
     <h4>References</h4>
     <ul>
       <li>Nayak, A., Gopalswamy, S., & Rathinam, S. (2019). Vision-Based Techniques for Identifying Emergency Vehicles. SAE Technical Paper 2019-01-0889.</li>
@@ -1209,6 +1203,7 @@
         links: [
           { label: "Video", href: "https://www.youtube.com/watch?v=gh0g5iAuruw" },
           { label: "GitHub", href: "https://github.com/nykabhishek/RAVEV" },
+          { label: "M.S. Thesis", href: "https://oaktrust.library.tamu.edu/items/c94abd71-7c17-4b7e-a2cc-476fac1fc885" },
           { label: "Dataset", href: "https://sites.google.com/tamu.edu/ravev/research-data?authuser=0" },
           { label: "Report", href: "https://safed.vtti.vt.edu/wp-content/uploads/2020/08/03-051_FinalResearchReport_Final.pdf" },
           { label: "SAE Paper 2019", href: "https://doi.org/10.4271/2019-01-0889" }
@@ -1216,17 +1211,9 @@
       },
       iea: {
         title: "Infrastructure Enabled Autonomy (IEA)",
-        date: "Dec 30, 2021 · Abhishek Nayak",
-        img: "https://nykabhishek.github.io/img/iea.webp",
-        body: `<p><strong>Abstract:</strong> Contributed to a novel distributed intelligence architecture for Connected Autonomous Vehicles (CAVs) that offloads perception and path planning from the vehicle onto Smart Roadside Units (RSUs) — reducing onboard compute requirements while improving situational awareness. Developed Vehicle-to-Infrastructure (V2I) and Infrastructure-to-Infrastructure (I2I) communication stacks using DSRC, and built software pipelines for object detection, semantic segmentation, and multi-sensor fusion. Implemented SLAM for RSUs by fusing IMU, camera, GPS/RTK, and odometry data using Extended Kalman Filters (EKF) and Monte Carlo methods, enabling localization of a Lincoln MKZ in GPS-challenged environments.</p>
-    <h4>Demo Videos</h4>
-    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.5rem;">
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/s4xNCPnUPRg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/eOoPIvJhj3k" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/iMSxPE9c2QQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/7MCkzDjaPPY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/X9t4WEsonf0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-    </div>
+        img: "./img/iea.webp",
+        body: `<p>Contributed to a distributed architecture that offloads perception and planning from connected autonomous vehicles to smart roadside units (RSUs), cutting onboard compute while improving situational awareness. Built V2I/I2I communication over DSRC and pipelines for detection, semantic segmentation, and sensor fusion. Implemented RSU SLAM fusing IMU, camera, GPS/RTK, and odometry with EKF and Monte Carlo methods to localize a Lincoln MKZ in GPS-challenged areas.</p>
+    ${videos(['s4xNCPnUPRg', 'eOoPIvJhj3k', 'iMSxPE9c2QQ', '7MCkzDjaPPY', 'X9t4WEsonf0'])}
     <h4>References</h4>
     <ol>
       <li>Nayak, A., et al. (2018). A distributed hybrid hardware-in-the-loop simulation framework for infrastructure enabled autonomy. arXiv:1802.01787.</li>
@@ -1237,27 +1224,23 @@
       },
       focus: {
         title: "Low-Cost Drive-By-Wire System for Ford Focus",
-        date: "Dec 30, 2021 · Abhishek Nayak",
         img: "./img/focus.webp",
-        body: `<p>Collaborated in a 3-person team to engineer a low-cost drive-by-wire prototype for a Ford Focus using sensor emulation via Arduino Mega, enabling full remote actuation of throttle, braking, and steering. The system demonstrated a viable path to affordable autonomous vehicle retrofitting, with direct applications in research platforms for autonomy and controls testing.</p>
+        body: `<p>In a 3-person team, built a low-cost drive-by-wire prototype for a Ford Focus. Arduino Mega sensor emulation enabled remote throttle, braking, and steering control, a path to affordable AV retrofits for research platforms.</p>
     <p><strong>Collaborators:</strong> Kenny Chour, PhD — Texas A&M University</p>
-    <h4>Demo Videos</h4>
-    <div style="display:flex;flex-direction:column;gap:1rem;margin-top:0.5rem;">
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/0Qlv_Cc4pwY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-      <iframe width="100%" height="280" src="https://www.youtube.com/embed/Q8OMI-cLm2E" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen style="border-radius:8px;" loading="lazy" title="Demo Video"></iframe>
-    </div>`,
+    ${videos(['0Qlv_Cc4pwY', 'Q8OMI-cLm2E'])}`,
         links: []
       }
     };
 
-    function openModal(key) {
+    let modalOpener = null;
+    function openModal(key, opener) {
+      modalOpener = opener || document.activeElement;
       const p = projects[key];
-      const linksHtml = p.links.length ? `<div class="modal-links">${p.links.map(l => `<a class="project-link" href="${l.href}" target="_blank">${l.label} ↗</a>`).join('')}</div>` : '';
+      const linksHtml = p.links.length ? `<div class="modal-links">${p.links.map(l => `<a class="project-link" href="${l.href}" target="_blank" rel="noopener">${l.label} ↗</a>`).join('')}</div>` : '';
       document.getElementById('modal-content').innerHTML = `
-        <button class="modal-close" onclick="closeModal()">✕</button>
-        <img src="${p.img}" alt="${p.title}"/>
-        <h2>${p.title}</h2>
-        <p class="modal-date">${p.date}</p>
+        <button type="button" class="modal-close" aria-label="Close" onclick="closeModal()">✕</button>
+        <img src="${p.img}" alt=""/>
+        <h2 id="modal-title">${p.title}</h2>
         ${p.body}
         ${linksHtml}
       `;
@@ -1280,9 +1263,42 @@
       const overlay = document.getElementById('modal-overlay');
       overlay.classList.remove('open');
       document.body.style.overflow = '';
+      document.getElementById('modal-content').innerHTML = '';
+      if (modalOpener) { modalOpener.focus(); modalOpener = null; }
       if (overlay._trapFocus) { overlay.removeEventListener('keydown', overlay._trapFocus); overlay._trapFocus = null; }
     }
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+    // Theme toggle: system preference by default, saved choice overrides
+    (function () {
+      const root = document.documentElement;
+      const btn = document.getElementById('theme-toggle');
+      const mq = window.matchMedia('(prefers-color-scheme: dark)');
+      const isDark = () => root.dataset.theme ? root.dataset.theme === 'dark' : mq.matches;
+      const sync = () => btn.setAttribute('aria-pressed', String(isDark()));
+      try { const t = localStorage.getItem('theme'); if (t === 'light' || t === 'dark') root.dataset.theme = t; } catch (e) { }
+      sync();
+      mq.addEventListener('change', sync);
+      btn.addEventListener('click', () => {
+        const next = isDark() ? 'light' : 'dark';
+        root.dataset.theme = next;
+        try { localStorage.setItem('theme', next); } catch (e) { }
+        sync();
+      });
+    })();
+    // Highlight the nav link for the section in view
+    (function () {
+      const links = [...document.querySelectorAll('.nav-links a')];
+      const sections = links.map(a => document.querySelector(a.getAttribute('href')));
+      function update() {
+        const y = window.scrollY + 120;
+        let current = 0;
+        sections.forEach((s, i) => { if (s && s.offsetTop <= y) current = i; });
+        if (window.innerHeight + window.scrollY >= document.body.offsetHeight - 2) current = links.length - 1;
+        links.forEach((a, i) => a.classList.toggle('active', i === current));
+      }
+      window.addEventListener('scroll', update, { passive: true });
+      update();
+    })();
     // Dynamically set copyright year with symbol
     document.addEventListener('DOMContentLoaded', function () {
       const yearSpan = document.getElementById('copyright-year');
